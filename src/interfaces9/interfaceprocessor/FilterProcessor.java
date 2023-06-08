@@ -1,6 +1,6 @@
 //: interfaces/interfaceprocessor/FilterProcessor.java
 package interfaces9.interfaceprocessor;
-import interfaces.filters.*;
+import interfaces9.filters.*;
 
 class FilterAdapter implements Processor {
   Filter filter;

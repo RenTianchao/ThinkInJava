@@ -1,6 +1,6 @@
 package holding11;//: holding/CollectionSequence.java
 
-import typeinfo.pets.*;
+import typeinfo14.pets.*;
 
 import java.util.*;
 
