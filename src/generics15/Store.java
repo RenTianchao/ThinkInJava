@@ -1,5 +1,5 @@
 package generics15;//: generics/Store.java
-// Building up a complex model using generic containers.
+// Building up a complex model using generic containers17.
 
 import java.util.*;
 

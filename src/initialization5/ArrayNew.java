@@ -1,6 +1,6 @@
 package initialization5;
 //: initialization/ArrayNew.java
-// Creating arrays with new.
+// Creating arrays16 with new.
 import java.util.*;
 import static net.mindview.util.Print.*;
 
