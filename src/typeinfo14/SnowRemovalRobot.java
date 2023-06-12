@@ -1,4 +1,5 @@
-package typeinfo14;//: typeinfo/SnowRemovalRobot.java
+package typeinfo14;
+//: typeinfo/SnowRemovalRobot.java
 
 import java.util.*;
 
@@ -48,7 +49,6 @@ public class SnowRemovalRobot implements Robot {
                 }
         );
     }
-
     public static void main(String[] args) {
         Robot.Test.test(new SnowRemovalRobot("Slusher"));
     }

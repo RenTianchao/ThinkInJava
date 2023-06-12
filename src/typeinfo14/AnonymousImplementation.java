@@ -1,4 +1,5 @@
-package typeinfo14;//: typeinfo/AnonymousImplementation.java
+package typeinfo14;
+//: typeinfo/AnonymousImplementation.java
 // Anonymous inner classes can't hide from reflection.
 
 import typeinfo14.interfacea.*;

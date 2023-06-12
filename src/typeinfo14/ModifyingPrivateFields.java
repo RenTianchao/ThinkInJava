@@ -1,4 +1,5 @@
-package typeinfo14;//: typeinfo/ModifyingPrivateFields.java
+package typeinfo14;
+//: typeinfo/ModifyingPrivateFields.java
 
 import java.lang.reflect.*;
 

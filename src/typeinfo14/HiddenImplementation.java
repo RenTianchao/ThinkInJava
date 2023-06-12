@@ -1,4 +1,5 @@
-package typeinfo14;//: typeinfo/HiddenImplementation.java
+package typeinfo14;
+//: typeinfo/HiddenImplementation.java
 // Sneaking around package access.
 
 import typeinfo14.interfacea.*;
