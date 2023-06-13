@@ -1,4 +1,5 @@
-package generics15;//: generics/ArrayMaker.java
+package generics15;
+//: generics/ArrayMaker.java
 
 import java.lang.reflect.*;
 import java.util.*;

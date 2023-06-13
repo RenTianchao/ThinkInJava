@@ -1,4 +1,5 @@
-package generics15;//: generics/ErasureAndInheritance.java
+package generics15;
+//: generics/ErasureAndInheritance.java
 
 class GenericBase<T> {
     private T element;

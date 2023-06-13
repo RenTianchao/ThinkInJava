@@ -1,4 +1,5 @@
-package generics15;//: generics/ListMaker.java
+package generics15;
+//: generics/ListMaker.java
 
 import java.util.*;
 

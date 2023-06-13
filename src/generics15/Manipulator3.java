@@ -1,4 +1,5 @@
-package generics15;//: generics/Manipulator3.java
+package generics15;
+//: generics/Manipulator3.java
 
 class Manipulator3 {
     private HasF obj;

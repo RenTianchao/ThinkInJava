@@ -1,4 +1,5 @@
-package generics15;//: generics/CreatorGeneric.java
+package generics15;
+//: generics/CreatorGeneric.java
 
 abstract class GenericWithCreate<T> {
     final T element;

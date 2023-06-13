@@ -1,4 +1,5 @@
-package generics15;//: generics/ClassTypeCapture.java
+package generics15;
+//: generics/ClassTypeCapture.java
 
 class Building {
 }

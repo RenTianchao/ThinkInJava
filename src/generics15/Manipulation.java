@@ -1,4 +1,5 @@
-package generics15;//: generics/Manipulation.java
+package generics15;
+//: generics/Manipulation.java
 // {CompileTimeError} (Won't compile)
 
 class Manipulator<T> {

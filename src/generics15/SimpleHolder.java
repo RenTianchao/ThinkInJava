@@ -1,4 +1,5 @@
-package generics15;//: generics/SimpleHolder.java
+package generics15;
+//: generics/SimpleHolder.java
 
 public class SimpleHolder {
     private Object obj;

@@ -1,4 +1,5 @@
-package generics15;//: generics/FactoryConstraint.java
+package generics15;
+//: generics/FactoryConstraint.java
 
 interface FactoryI<T> {
     T create();

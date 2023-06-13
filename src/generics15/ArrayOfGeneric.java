@@ -1,4 +1,5 @@
-package generics15;//: generics/ArrayOfGeneric.java
+package generics15;
+//: generics/ArrayOfGeneric.java
 
 public class ArrayOfGeneric {
     static final int SIZE = 100;

@@ -1,4 +1,5 @@
-package generics15;//: generics/ErasedTypeEquivalence.java
+package generics15;
+//: generics/ErasedTypeEquivalence.java
 
 import java.util.*;
 

@@ -1,4 +1,5 @@
-package generics15;//: generics/GenericArray2.java
+package generics15;
+//: generics/GenericArray2.java
 
 public class GenericArray2<T> {
     private Object[] array;

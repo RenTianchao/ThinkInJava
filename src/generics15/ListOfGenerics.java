@@ -1,4 +1,5 @@
-package generics15;//: generics/ListOfGenerics.java
+package generics15;
+//: generics/ListOfGenerics.java
 
 import java.util.*;
 

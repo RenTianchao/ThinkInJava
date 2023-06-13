@@ -1,4 +1,5 @@
-package generics15;//: generics/Erased.java
+package generics15;
+//: generics/Erased.java
 // {CompileTimeError} (Won't compile)
 
 public class Erased<T> {

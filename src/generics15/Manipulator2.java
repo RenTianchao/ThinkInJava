@@ -1,4 +1,5 @@
-package generics15;//: generics/Manipulator2.java
+package generics15;
+//: generics/Manipulator2.java
 
 class Manipulator2<T extends HasF> {
     private T obj;
