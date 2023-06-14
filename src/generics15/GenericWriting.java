@@ -1,4 +1,5 @@
-package generics15;//: generics/GenericWriting.java
+package generics15;
+//: generics/GenericWriting.java
 
 import java.util.*;
 

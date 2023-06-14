@@ -1,4 +1,5 @@
-package generics15;//: generics/Wildcards.java
+package generics15;
+//: generics/Wildcards.java
 // Exploring the meaning of wildcards.
 
 public class Wildcards {

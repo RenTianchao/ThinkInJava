@@ -1,4 +1,5 @@
-package generics15;//: generics/GenericReading.java
+package generics15;
+//: generics/GenericReading.java
 
 import java.util.*;
 
