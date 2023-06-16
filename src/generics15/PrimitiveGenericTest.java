@@ -1,4 +1,5 @@
-package generics15;//: generics/PrimitiveGenericTest.java
+package generics15;
+//: generics/PrimitiveGenericTest.java
 
 import net.mindview.util.*;
 

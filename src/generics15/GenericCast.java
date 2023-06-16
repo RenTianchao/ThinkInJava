@@ -1,4 +1,5 @@
-package generics15;//: generics/GenericCast.java
+package generics15;
+//: generics/GenericCast.java
 
 class FixedSizeStack<T> {
     private int index = 0;

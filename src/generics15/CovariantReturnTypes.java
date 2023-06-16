@@ -1,4 +1,5 @@
-package generics15;//: generics/CovariantReturnTypes.java
+package generics15;
+//: generics/CovariantReturnTypes.java
 
 class Base {
 }

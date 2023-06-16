@@ -1,4 +1,5 @@
-package generics15;//: generics/DogsAndRobots.java
+package generics15;
+//: generics/DogsAndRobots.java
 // No latent typing in Java
 
 import typeinfo14.pets.*;

@@ -1,4 +1,5 @@
-package generics15;//: generics/ComparablePet.java
+package generics15;
+//: generics/ComparablePet.java
 
 public class ComparablePet
         implements Comparable<ComparablePet> {

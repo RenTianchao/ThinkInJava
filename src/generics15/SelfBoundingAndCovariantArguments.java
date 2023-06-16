@@ -1,4 +1,5 @@
-package generics15;//: generics/SelfBoundingAndCovariantArguments.java
+package generics15;
+//: generics/SelfBoundingAndCovariantArguments.java
 
 interface SelfBoundSetter<T extends SelfBoundSetter<T>> {
     void set(T arg);

@@ -1,4 +1,5 @@
-package generics15;//: generics/Performs.java
+package generics15;
+//: generics/Performs.java
 
 public interface Performs {
     void speak();

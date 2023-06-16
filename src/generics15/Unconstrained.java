@@ -1,4 +1,5 @@
-package generics15;//: generics/Unconstrained.java
+package generics15;
+//: generics/Unconstrained.java
 
 class Other {
 }

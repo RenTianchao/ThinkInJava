@@ -1,4 +1,5 @@
-package generics15;//: generics/SelfBoundingMethods.java
+package generics15;
+//: generics/SelfBoundingMethods.java
 
 public class SelfBoundingMethods {
     static <T extends SelfBounded<T>> T f(T arg) {

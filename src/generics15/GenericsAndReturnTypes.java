@@ -1,4 +1,5 @@
-package generics15;//: generics/GenericsAndReturnTypes.java
+package generics15;
+//: generics/GenericsAndReturnTypes.java
 
 interface GenericGetter<T extends GenericGetter<T>> {
     T get();

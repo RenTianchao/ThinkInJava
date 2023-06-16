@@ -1,4 +1,5 @@
-package generics15;//: generics/SimpleDogsAndRobots.java
+package generics15;
+//: generics/SimpleDogsAndRobots.java
 // Removing the generic; code still works.
 
 class CommunicateSimply {

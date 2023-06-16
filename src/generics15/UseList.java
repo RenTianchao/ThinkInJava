@@ -1,4 +1,5 @@
-package generics15;//: generics/UseList.java
+package generics15;
+//: generics/UseList.java
 // {CompileTimeError} (Won't compile)
 
 import java.util.*;

@@ -1,4 +1,5 @@
-package generics15;//: generics/DynamicProxyMixin.java
+package generics15;
+//: generics/DynamicProxyMixin.java
 
 import java.lang.reflect.*;
 import java.util.*;

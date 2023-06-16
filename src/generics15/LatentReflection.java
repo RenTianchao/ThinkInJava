@@ -1,4 +1,5 @@
-package generics15;//: generics/LatentReflection.java
+package generics15;
+//: generics/LatentReflection.java
 // Using Reflection to produce latent typing.
 
 import java.lang.reflect.*;

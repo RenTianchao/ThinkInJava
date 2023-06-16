@@ -1,4 +1,5 @@
-package generics15;//: generics/CuriouslyRecurringGeneric.java
+package generics15;
+//: generics/CuriouslyRecurringGeneric.java
 
 class GenericType<T> {
 }

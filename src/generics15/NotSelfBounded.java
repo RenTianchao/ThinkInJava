@@ -1,4 +1,5 @@
-package generics15;//: generics/NotSelfBounded.java
+package generics15;
+//: generics/NotSelfBounded.java
 
 public class NotSelfBounded<T> {
     T element;

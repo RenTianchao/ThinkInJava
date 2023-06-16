@@ -1,4 +1,5 @@
-package generics15;//: generics/Mixins.java
+package generics15;
+//: generics/Mixins.java
 
 import java.util.*;
 
