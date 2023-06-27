@@ -4,6 +4,7 @@ package io18;
 // writeObject() and readObject() methods.
 import java.io.*;
 
+
 public class SerialCtl implements Serializable {
   private String a;
   private transient String b;
