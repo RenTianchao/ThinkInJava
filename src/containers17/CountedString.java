@@ -1,4 +1,5 @@
-package containers17;//: containers17/CountedString.java
+package containers17;
+//: containers17/CountedString.java
 // Creating a good hashCode().
 import java.util.*;
 import static net.mindview.util.Print.*;

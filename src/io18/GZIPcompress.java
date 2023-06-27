@@ -1,4 +1,5 @@
-package io18;//: io/GZIPcompress.java
+package io18;
+//: io/GZIPcompress.java
 // {Args: GZIPcompress.java}
 import java.util.zip.*;
 import java.io.*;

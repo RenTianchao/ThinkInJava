@@ -1,4 +1,5 @@
-package io18;//: io/Blip3.java
+package io18;
+//: io/Blip3.java
 // Reconstructing an externalizable object.
 import java.io.*;
 import static net.mindview.util.Print.*;

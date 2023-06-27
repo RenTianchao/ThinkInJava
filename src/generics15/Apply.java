@@ -1,4 +1,5 @@
-package generics15;//: generics/Apply.java
+package generics15;
+//: generics/Apply.java
 // {main: ApplyTest}
 
 import java.lang.reflect.*;

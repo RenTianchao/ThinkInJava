@@ -1,4 +1,5 @@
-package io18;//: io/OSExecuteDemo.java
+package io18;
+//: io/OSExecuteDemo.java
 // Demonstrates standard I/O redirection.
 import net.mindview.util.*;
 

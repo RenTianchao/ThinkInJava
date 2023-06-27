@@ -1,4 +1,5 @@
-package io18;//: io/StoreCADState.java
+package io18;
+//: io/StoreCADState.java
 // Saving the state of a pretend CAD system.
 import java.io.*;
 import java.util.*;

@@ -1,4 +1,5 @@
-package generics15;//: generics/Fill.java
+package generics15;
+//: generics/Fill.java
 // Generalizing the FilledList idea
 // {main: FillTest}
 

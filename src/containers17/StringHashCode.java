@@ -1,4 +1,5 @@
-package containers17;//: containers17/StringHashCode.java
+package containers17;
+//: containers17/StringHashCode.java
 
 public class StringHashCode {
   public static void main(String[] args) {

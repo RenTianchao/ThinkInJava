@@ -1,4 +1,5 @@
-package arrays16;//: arrays/TestArrayGeneration.java
+package arrays16;
+//: arrays/TestArrayGeneration.java
 // Test the tools that use generators to fill arrays.
 import java.util.*;
 import net.mindview.util.*;

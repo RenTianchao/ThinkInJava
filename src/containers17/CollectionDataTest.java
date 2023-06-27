@@ -1,4 +1,5 @@
-package containers17;//: containers17/CollectionDataTest.java
+package containers17;
+//: containers17/CollectionDataTest.java
 import java.util.*;
 import net.mindview.util.*;
 

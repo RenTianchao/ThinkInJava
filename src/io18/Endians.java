@@ -1,4 +1,5 @@
-package io18;//: io/Endians.java
+package io18;
+//: io/Endians.java
 // Endian differences and data storage.
 import java.nio.*;
 import java.util.*;

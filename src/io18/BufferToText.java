@@ -1,4 +1,5 @@
-package io18;//: io/BufferToText.java
+package io18;
+//: io/BufferToText.java
 // Converting text to and from ByteBuffers
 import java.nio.*;
 import java.nio.channels.*;

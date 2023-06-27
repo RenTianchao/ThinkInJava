@@ -1,4 +1,5 @@
-package io18;//: io/UsingRandomAccessFile.java
+package io18;
+//: io/UsingRandomAccessFile.java
 import java.io.*;
 
 public class UsingRandomAccessFile {

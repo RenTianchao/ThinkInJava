@@ -1,4 +1,5 @@
-package containers17;//: containers17/SetPerformance.java
+package containers17;
+//: containers17/SetPerformance.java
 // Demonstrates performance differences in Sets.
 // {Args: 100 5000} Small to keep build testing short
 import java.util.*;

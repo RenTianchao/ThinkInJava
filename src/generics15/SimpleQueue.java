@@ -1,4 +1,5 @@
-package generics15;//: generics/SimpleQueue.java
+package generics15;
+//: generics/SimpleQueue.java
 // A different kind of container that is Iterable
 
 import java.util.*;

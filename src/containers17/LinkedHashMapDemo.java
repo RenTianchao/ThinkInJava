@@ -1,4 +1,5 @@
-package containers17;//: containers17/LinkedHashMapDemo.java
+package containers17;
+//: containers17/LinkedHashMapDemo.java
 // What you can do with a LinkedHashMap.
 import java.util.*;
 import net.mindview.util.*;

@@ -1,4 +1,5 @@
-package io18;//: io/MyWorld.java
+package io18;
+//: io/MyWorld.java
 import java.io.*;
 import java.util.*;
 import static net.mindview.util.Print.*;

@@ -1,4 +1,5 @@
-package containers17;//: containers17/Test.java
+package containers17;
+//: containers17/Test.java
 // Framework for performing timed tests of containers17.
 
 public abstract class Test<C> {

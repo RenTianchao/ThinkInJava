@@ -1,4 +1,5 @@
-package arrays16;//: arrays/MultidimensionalPrimitiveArray.java
+package arrays16;
+//: arrays/MultidimensionalPrimitiveArray.java
 // Creating multidimensional arrays.
 import java.util.*;
 

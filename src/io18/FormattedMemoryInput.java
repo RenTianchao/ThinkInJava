@@ -1,4 +1,5 @@
-package io18;//: io/FormattedMemoryInput.java
+package io18;
+//: io/FormattedMemoryInput.java
 import java.io.*;
 
 public class FormattedMemoryInput {

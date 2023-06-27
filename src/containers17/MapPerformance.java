@@ -1,4 +1,5 @@
-package containers17;//: containers17/MapPerformance.java
+package containers17;
+//: containers17/MapPerformance.java
 // Demonstrates performance differences in Maps.
 // {Args: 100 5000} Small to keep build testing short
 import java.util.*;

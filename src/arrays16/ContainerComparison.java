@@ -1,4 +1,5 @@
-package arrays16;//: arrays/ContainerComparison.java
+package arrays16;
+//: arrays/ContainerComparison.java
 import java.util.*;
 import static net.mindview.util.Print.*;
 

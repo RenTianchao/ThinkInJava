@@ -1,4 +1,5 @@
-package io18;//: io/FreezeAlien.java
+package io18;
+//: io/FreezeAlien.java
 // Create a serialized output file.
 import java.io.*;
 

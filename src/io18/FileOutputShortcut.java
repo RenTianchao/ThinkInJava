@@ -1,4 +1,5 @@
-package io18;//: io/FileOutputShortcut.java
+package io18;
+//: io/FileOutputShortcut.java
 import java.io.*;
 
 public class FileOutputShortcut {

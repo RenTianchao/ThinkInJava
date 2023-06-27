@@ -1,4 +1,5 @@
-package arrays16;//: arrays/MultiDimWrapperArray.java
+package arrays16;
+//: arrays/MultiDimWrapperArray.java
 // Multidimensional arrays of "wrapper" objects.
 import java.util.*;
 

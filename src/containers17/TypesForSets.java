@@ -1,4 +1,5 @@
-package containers17;//: containers17/TypesForSets.java
+package containers17;
+//: containers17/TypesForSets.java
 // Methods necessary to put your own type in a Set.
 import java.util.*;
 

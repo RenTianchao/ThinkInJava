@@ -1,4 +1,5 @@
-package io18;//: io/Worm.java
+package io18;
+//: io/Worm.java
 // Demonstrates object serialization.
 import java.io.*;
 import java.util.*;

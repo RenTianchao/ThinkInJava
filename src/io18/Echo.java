@@ -1,4 +1,5 @@
-package io18;//: io/Echo.java
+package io18;
+//: io/Echo.java
 // How to read from standard input.
 // {RunByHand}
 import java.io.*;

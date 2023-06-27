@@ -1,4 +1,5 @@
-package io18;//: io/MappedIO.java
+package io18;
+//: io/MappedIO.java
 import java.nio.*;
 import java.nio.channels.*;
 import java.io.*;

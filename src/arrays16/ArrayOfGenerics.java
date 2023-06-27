@@ -1,4 +1,5 @@
-package arrays16;//: arrays/ArrayOfGenerics.java
+package arrays16;
+//: arrays/ArrayOfGenerics.java
 // It is possible to create arrays of generics.
 import java.util.*;
 

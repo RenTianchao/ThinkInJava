@@ -1,4 +1,5 @@
-package containers17;//: containers17/QueueBehavior.java
+package containers17;
+//: containers17/QueueBehavior.java
 // Compares the behavior of some of the queues
 import java.util.concurrent.*;
 import java.util.*;

@@ -1,4 +1,5 @@
-package arrays16;//: arrays/ArraySearching.java
+package arrays16;
+//: arrays/ArraySearching.java
 // Using Arrays.binarySearch().
 import java.util.*;
 import net.mindview.util.*;

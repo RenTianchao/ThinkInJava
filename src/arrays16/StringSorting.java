@@ -1,4 +1,5 @@
-package arrays16;//: arrays/StringSorting.java
+package arrays16;
+//: arrays/StringSorting.java
 // Sorting an array of Strings.
 import java.util.*;
 import net.mindview.util.*;

@@ -1,4 +1,5 @@
-package io18;//: io/Redirecting.java
+package io18;
+//: io/Redirecting.java
 // Demonstrates standard I/O redirection.
 import java.io.*;
 

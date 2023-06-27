@@ -1,4 +1,5 @@
-package io18;//: io/LargeMappedFiles.java
+package io18;
+//: io/LargeMappedFiles.java
 // Creating a very large file using mapping.
 // {RunByHand}
 import java.nio.*;

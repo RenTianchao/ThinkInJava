@@ -1,4 +1,5 @@
-package containers17;//: containers17/SpringDetector2.java
+package containers17;
+//: containers17/SpringDetector2.java
 // A working key.
 
 public class SpringDetector2 {

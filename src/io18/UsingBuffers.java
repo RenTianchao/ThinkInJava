@@ -1,4 +1,5 @@
-package io18;//: io/UsingBuffers.java
+package io18;
+//: io/UsingBuffers.java
 import java.nio.*;
 import static net.mindview.util.Print.*;
 

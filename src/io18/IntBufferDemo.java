@@ -1,4 +1,5 @@
-package io18;//: io/IntBufferDemo.java
+package io18;
+//: io/IntBufferDemo.java
 // Manipulating ints in a ByteBuffer with an IntBuffer
 import java.nio.*;
 

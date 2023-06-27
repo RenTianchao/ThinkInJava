@@ -1,4 +1,5 @@
-package containers17;//: containers17/SlowMap.java
+package containers17;
+//: containers17/SlowMap.java
 // A Map implemented with ArrayLists.
 import java.util.*;
 import net.mindview.util.*;
@@ -20,7 +21,7 @@ public class SlowMap<K,V> extends AbstractMap<K,V> {
       return null;
     return values.get(keys.indexOf(key));
   }
-  public Set<Entry<K,V>> entrySet() {
+  public Set<Entry<K,V>> entrySet() {//？Entry<K,V>
     Set<Entry<K,V>> set= new HashSet<Entry<K,V>>();
     Iterator<K> ki = keys.iterator();
     Iterator<V> vi = values.iterator();

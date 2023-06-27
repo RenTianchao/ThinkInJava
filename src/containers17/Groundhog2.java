@@ -1,4 +1,5 @@
-package containers17;//: containers17/Groundhog2.java
+package containers17;
+//: containers17/Groundhog2.java
 // A class that's used as a key in a HashMap
 // must override hashCode() and equals().
 

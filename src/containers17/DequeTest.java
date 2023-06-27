@@ -1,4 +1,5 @@
-package containers17;//: containers17/DequeTest.java
+package containers17;
+//: containers17/DequeTest.java
 import net.mindview.util.*;
 import static net.mindview.util.Print.*;
 

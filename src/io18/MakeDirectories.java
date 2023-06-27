@@ -1,4 +1,5 @@
-package io18;//: io/MakeDirectories.java
+package io18;
+//: io/MakeDirectories.java
 // Demonstrates the use of the File class to
 // create directories and manipulate files.
 // {Args: MakeDirectoriesTest}

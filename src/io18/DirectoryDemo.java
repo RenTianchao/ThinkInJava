@@ -1,4 +1,5 @@
-package io18;//: io/DirectoryDemo.java
+package io18;
+//: io/DirectoryDemo.java
 // Sample use of Directory utilities.
 import java.io.*;
 import net.mindview.util.*;

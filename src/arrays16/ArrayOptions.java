@@ -1,4 +1,5 @@
-package arrays16;//: arrays/ArrayOptions.java
+package arrays16;
+//: arrays/ArrayOptions.java
 // Initialization & re-assignment of arrays.
 import java.util.*;
 import static net.mindview.util.Print.*;

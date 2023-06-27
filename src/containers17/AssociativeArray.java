@@ -1,4 +1,5 @@
-package containers17;//: containers17/AssociativeArray.java
+package containers17;
+//: containers17/AssociativeArray.java
 // Associates keys with values.
 import static net.mindview.util.Print.*;
 

@@ -1,4 +1,5 @@
-package containers17;//: containers17/CollectionMethods.java
+package containers17;
+//: containers17/CollectionMethods.java
 // Things you can do with all Collections.
 import java.util.*;
 import net.mindview.util.*;

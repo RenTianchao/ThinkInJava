@@ -1,4 +1,5 @@
-package io18;//: io/Blips.java
+package io18;
+//: io/Blips.java
 // Simple use of Externalizable & a pitfall.
 import java.io.*;
 import static net.mindview.util.Print.*;

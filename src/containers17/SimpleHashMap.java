@@ -1,4 +1,5 @@
-package containers17;//: containers17/SimpleHashMap.java
+package containers17;
+//: containers17/SimpleHashMap.java
 // A demonstration hashed Map.
 import java.util.*;
 import net.mindview.util.*;

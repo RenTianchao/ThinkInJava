@@ -1,4 +1,5 @@
-package io18;//: io/MemoryInput.java
+package io18;
+//: io/MemoryInput.java
 import java.io.*;
 
 public class MemoryInput {

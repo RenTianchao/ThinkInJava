@@ -1,4 +1,5 @@
-package io18;//: io/BufferedInputFile.java
+package io18;
+//: io/BufferedInputFile.java
 import java.io.*;
 
 public class BufferedInputFile {

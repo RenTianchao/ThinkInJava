@@ -1,4 +1,5 @@
-package containers17;//: containers17/CollectionDataGeneration.java
+package containers17;
+//: containers17/CollectionDataGeneration.java
 // Using the Generators defined in the Arrays chapter.
 import java.util.*;
 import net.mindview.util.*;

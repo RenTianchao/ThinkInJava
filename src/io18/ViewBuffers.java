@@ -1,4 +1,5 @@
-package io18;//: io/ViewBuffers.java
+package io18;
+//: io/ViewBuffers.java
 import java.nio.*;
 import static net.mindview.util.Print.*;
 

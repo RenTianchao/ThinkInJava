@@ -1,4 +1,5 @@
-package io18;//: io/TransferTo.java
+package io18;
+//: io/TransferTo.java
 // Using transferTo() between channels
 // {Args: TransferTo.java TransferTo.txt}
 import java.nio.channels.*;

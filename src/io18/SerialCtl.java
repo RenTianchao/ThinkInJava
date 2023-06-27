@@ -1,4 +1,5 @@
-package io18;//: io/SerialCtl.java
+package io18;
+//: io/SerialCtl.java
 // Controlling serialization by adding your own
 // writeObject() and readObject() methods.
 import java.io.*;

@@ -1,4 +1,5 @@
-package arrays16;//: arrays/AlphabeticSearch.java
+package arrays16;
+//: arrays/AlphabeticSearch.java
 // Searching with a Comparator.
 import java.util.*;
 import net.mindview.util.*;

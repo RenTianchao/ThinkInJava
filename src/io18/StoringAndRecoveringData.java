@@ -1,4 +1,5 @@
-package io18;//: io/StoringAndRecoveringData.java
+package io18;
+//: io/StoringAndRecoveringData.java
 import java.io.*;
 
 public class StoringAndRecoveringData {
