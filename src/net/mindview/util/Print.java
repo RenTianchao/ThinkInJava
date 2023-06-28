@@ -1,5 +1,5 @@
 package net.mindview.util;
-//: net/mindview/util/Print.java
+// : net/mindview/util/Print.java
 // Print methods that can be used without
 // qualifiers, using Java SE5 static imports:
 
@@ -22,8 +22,7 @@ public class Print {
     }
 
     // The new Java SE5 printf() (from C):
-    public static PrintStream
-    printf(String format, Object... args) {
+    public static PrintStream printf(String format, Object... args) {
         return System.out.printf(format, args);
     }
-} ///:~
+} /// :~

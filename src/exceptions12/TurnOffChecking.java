@@ -1,4 +1,4 @@
-package exceptions12;//: exceptions12/TurnOffChecking.java
+package exceptions12; // : exceptions12/TurnOffChecking.java
 // "Turning off" Checked exceptions12.
 
 import java.io.*;
@@ -24,8 +24,7 @@ class WrapCheckedException {
     }
 }
 
-class SomeOtherException extends Exception {
-}
+class SomeOtherException extends Exception {}
 
 public class TurnOffChecking {
     public static void main(String[] args) {
@@ -36,10 +35,8 @@ public class TurnOffChecking {
         // Or you can choose to catch exceptions12:
         for (int i = 0; i < 4; i++)
             try {
-                if (i < 3)
-                    wce.throwRuntimeException(i);
-                else
-                    throw new SomeOtherException();
+                if (i < 3) wce.throwRuntimeException(i);
+                else throw new SomeOtherException();
             } catch (SomeOtherException e) {
                 print("SomeOtherException: " + e);
             } catch (RuntimeException re) {
@@ -55,8 +52,9 @@ public class TurnOffChecking {
             }
     }
 } /* Output:
-FileNotFoundException: java.io.FileNotFoundException
-IOException: java.io.IOException
-Throwable: java.lang.RuntimeException: Where am I?
-SomeOtherException: SomeOtherException
-*///:~
+  FileNotFoundException: java.io.FileNotFoundException
+  IOException: java.io.IOException
+  Throwable: java.lang.RuntimeException: Where am I?
+  SomeOtherException: SomeOtherException
+  */
+// :~

@@ -1,8 +1,7 @@
-package exceptions12;//: exceptions12/FullConstructors.java
+package exceptions12; // : exceptions12/FullConstructors.java
 
 class MyException extends Exception {
-    public MyException() {
-    }
+    public MyException() {}
 
     public MyException(String msg) {
         super(msg);
@@ -33,12 +32,13 @@ public class FullConstructors {
         }
     }
 } /* Output:
-Throwing MyException from f()
-MyException
-        at FullConstructors.f(FullConstructors.java:11)
-        at FullConstructors.main(FullConstructors.java:19)
-Throwing MyException from g()
-MyException: Originated in g()
-        at FullConstructors.g(FullConstructors.java:15)
-        at FullConstructors.main(FullConstructors.java:24)
-*///:~
+  Throwing MyException from f()
+  MyException
+          at FullConstructors.f(FullConstructors.java:11)
+          at FullConstructors.main(FullConstructors.java:19)
+  Throwing MyException from g()
+  MyException: Originated in g()
+          at FullConstructors.g(FullConstructors.java:15)
+          at FullConstructors.main(FullConstructors.java:24)
+  */
+// :~

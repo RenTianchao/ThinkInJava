@@ -1,4 +1,4 @@
-package holding11;//: holding/NonCollectionSequence.java
+package holding11; // : holding/NonCollectionSequence.java
 
 import typeinfo14.pets.*;
 import typeinfo14.pets.Pet;
@@ -34,5 +34,6 @@ public class NonCollectionSequence extends PetSequence {
         InterfaceVsIterator.display(nc.iterator());
     }
 } /* Output:
-0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx
-*///:~
+  0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx
+  */
+// :~

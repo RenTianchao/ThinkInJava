@@ -1,5 +1,5 @@
 package generics15;
-//: generics/GenericReading.java
+// : generics/GenericReading.java
 
 import java.util.*;
 
@@ -41,8 +41,7 @@ public class GenericReading {
     }
 
     static void f3() {
-        CovariantReader<Fruit> fruitReader =
-                new CovariantReader<Fruit>();
+        CovariantReader<Fruit> fruitReader = new CovariantReader<Fruit>();
         Fruit f = fruitReader.readCovariant(fruit);
         Fruit a = fruitReader.readCovariant(apples);
     }
@@ -52,4 +51,4 @@ public class GenericReading {
         f2();
         f3();
     }
-} ///:~
+} /// :~

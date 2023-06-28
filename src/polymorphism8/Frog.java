@@ -1,4 +1,4 @@
-//: polymorphism/Frog.java
+// : polymorphism/Frog.java
 // Cleanup and inheritance.
 package polymorphism8;
 
@@ -31,10 +31,8 @@ class Description {
 }
 
 class LivingCreature {
-    private Characteristic p =
-            new Characteristic("is alive");
-    private Description t =
-            new Description("Basic Living Creature");
+    private Characteristic p = new Characteristic("is alive");
+    private Description t = new Description("Basic Living Creature");
 
     LivingCreature() {
         print("LivingCreature()");
@@ -48,10 +46,8 @@ class LivingCreature {
 }
 
 class Animal extends LivingCreature {
-    private Characteristic p =
-            new Characteristic("has heart");
-    private Description t =
-            new Description("Animal not Vegetable");
+    private Characteristic p = new Characteristic("has heart");
+    private Description t = new Description("Animal not Vegetable");
 
     Animal() {
         print("Animal()");
@@ -66,10 +62,8 @@ class Animal extends LivingCreature {
 }
 
 class Amphibian extends Animal {
-    private Characteristic p =
-            new Characteristic("can live in water");
-    private Description t =
-            new Description("Both water and land");
+    private Characteristic p = new Characteristic("can live in water");
+    private Description t = new Description("Both water and land");
 
     Amphibian() {
         print("Amphibian()");
@@ -104,29 +98,30 @@ public class Frog extends Amphibian {
         frog.dispose();
     }
 } /* Output:
-Creating Characteristic is alive
-Creating Description Basic Living Creature
-LivingCreature()
-Creating Characteristic has heart
-Creating Description Animal not Vegetable
-Animal()
-Creating Characteristic can live in water
-Creating Description Both water and land
-Amphibian()
-Creating Characteristic Croaks
-Creating Description Eats Bugs
-Frog()
-Bye!
-Frog dispose
-disposing Description Eats Bugs
-disposing Characteristic Croaks
-Amphibian dispose
-disposing Description Both water and land
-disposing Characteristic can live in water
-Animal dispose
-disposing Description Animal not Vegetable
-disposing Characteristic has heart
-LivingCreature dispose
-disposing Description Basic Living Creature
-disposing Characteristic is alive
-*///:~
+  Creating Characteristic is alive
+  Creating Description Basic Living Creature
+  LivingCreature()
+  Creating Characteristic has heart
+  Creating Description Animal not Vegetable
+  Animal()
+  Creating Characteristic can live in water
+  Creating Description Both water and land
+  Amphibian()
+  Creating Characteristic Croaks
+  Creating Description Eats Bugs
+  Frog()
+  Bye!
+  Frog dispose
+  disposing Description Eats Bugs
+  disposing Characteristic Croaks
+  Amphibian dispose
+  disposing Description Both water and land
+  disposing Characteristic can live in water
+  Animal dispose
+  disposing Description Animal not Vegetable
+  disposing Characteristic has heart
+  LivingCreature dispose
+  disposing Description Basic Living Creature
+  disposing Characteristic is alive
+  */
+// :~

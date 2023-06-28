@@ -1,4 +1,4 @@
-//: net/mindview/util/DaemonThreadFactory.java
+// : net/mindview/util/DaemonThreadFactory.java
 package net.mindview.util;
 
 import java.util.concurrent.*;
@@ -9,4 +9,4 @@ public class DaemonThreadFactory implements ThreadFactory {
         t.setDaemon(true);
         return t;
     }
-} ///:~
+} /// :~

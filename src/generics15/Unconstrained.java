@@ -1,11 +1,9 @@
 package generics15;
-//: generics/Unconstrained.java
+// : generics/Unconstrained.java
 
-class Other {
-}
+class Other {}
 
-class BasicOther extends BasicHolder<Other> {
-}
+class BasicOther extends BasicHolder<Other> {}
 
 public class Unconstrained {
     public static void main(String[] args) {
@@ -15,5 +13,6 @@ public class Unconstrained {
         b.f();
     }
 } /* Output:
-Other
-*///:~
+  Other
+  */
+// :~

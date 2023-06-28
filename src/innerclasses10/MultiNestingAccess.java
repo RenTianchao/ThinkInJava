@@ -1,13 +1,15 @@
 package innerclasses10;
 
-//: innerclasses10/MultiNestingAccess.java
+// : innerclasses10/MultiNestingAccess.java
 // Nested classes can access all members of all
 // levels of the classes they are nested within.
 
 class MNA {
     private void f() {}
+
     class A {
         private void g() {}
+
         public class B {
             void h() {
                 g();
@@ -24,4 +26,4 @@ public class MultiNestingAccess {
         MNA.A.B mnaab = mnaa.new B();
         mnaab.h();
     }
-} ///:~
+} /// :~

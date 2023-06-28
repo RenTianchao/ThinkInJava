@@ -28,8 +28,7 @@ public class Parcel4 {
     public Contents contents() {
         return new PContents();
     }
-
-} ///:~
+} /// :~
 
 class TestParcel {
     public static void main(String[] args) {

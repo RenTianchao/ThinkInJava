@@ -1,4 +1,4 @@
-package holding11;//: holding/SimpleIteration.java
+package holding11; // : holding/SimpleIteration.java
 
 import typeinfo14.pets.*;
 import typeinfo14.pets.Pet;
@@ -16,8 +16,7 @@ public class SimpleIteration {
         }
         System.out.println();
         // A simpler approach, when possible:
-        for (Pet p : pets)
-            System.out.print(p.id() + ":" + p + " ");
+        for (Pet p : pets) System.out.print(p.id() + ":" + p + " ");
         System.out.println();
         // An Iterator can also remove elements:
         it = pets.iterator();
@@ -28,7 +27,8 @@ public class SimpleIteration {
         System.out.println(pets);
     }
 } /* Output:
-0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx 8:Cymric 9:Rat 10:EgyptianMau 11:Hamster
-0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx 8:Cymric 9:Rat 10:EgyptianMau 11:Hamster
-[Pug, Manx, Cymric, Rat, EgyptianMau, Hamster]
-*///:~
+  0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx 8:Cymric 9:Rat 10:EgyptianMau 11:Hamster
+  0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx 8:Cymric 9:Rat 10:EgyptianMau 11:Hamster
+  [Pug, Manx, Cymric, Rat, EgyptianMau, Hamster]
+  */
+// :~

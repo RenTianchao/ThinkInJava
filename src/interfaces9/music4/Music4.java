@@ -1,4 +1,4 @@
-//: interfaces9/music4/Music4.java
+// : interfaces9/music4/Music4.java
 // Abstract classes and methods.
 package interfaces9.music4;
 
@@ -27,8 +27,7 @@ class Wind extends Instrument {
         return "Wind";
     }
 
-    public void adjust() {
-    }
+    public void adjust() {}
 }
 
 class Percussion extends Instrument {
@@ -40,8 +39,7 @@ class Percussion extends Instrument {
         return "Percussion";
     }
 
-    public void adjust() {
-    }
+    public void adjust() {}
 }
 
 class Stringed extends Instrument {
@@ -53,8 +51,7 @@ class Stringed extends Instrument {
         return "Stringed";
     }
 
-    public void adjust() {
-    }
+    public void adjust() {}
 }
 
 class Brass extends Wind {
@@ -86,25 +83,21 @@ public class Music4 {
     }
 
     static void tuneAll(Instrument[] e) {
-        for (Instrument i : e)
-            tune(i);
+        for (Instrument i : e) tune(i);
     }
 
     public static void main(String[] args) {
         // Upcasting during addition to the array:
         Instrument[] orchestra = {
-                new Wind(),
-                new Percussion(),
-                new Stringed(),
-                new Brass(),
-                new Woodwind()
+            new Wind(), new Percussion(), new Stringed(), new Brass(), new Woodwind()
         };
         tuneAll(orchestra);
     }
 } /* Output:
-Wind.play() MIDDLE_C
-Percussion.play() MIDDLE_C
-Stringed.play() MIDDLE_C
-Brass.play() MIDDLE_C
-Woodwind.play() MIDDLE_C
-*///:~
+  Wind.play() MIDDLE_C
+  Percussion.play() MIDDLE_C
+  Stringed.play() MIDDLE_C
+  Brass.play() MIDDLE_C
+  Woodwind.play() MIDDLE_C
+  */
+// :~

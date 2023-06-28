@@ -1,5 +1,5 @@
 package generics15;
-//: generics/OrdinaryArguments.java
+// : generics/OrdinaryArguments.java
 
 class OrdinarySetter {
     void set(Base base) {
@@ -22,6 +22,7 @@ public class OrdinaryArguments {
         ds.set(base); // Compiles: overloaded, not overridden!
     }
 } /* Output:
-DerivedSetter.set(Derived)
-OrdinarySetter.set(Base)
-*///:~
+  DerivedSetter.set(Derived)
+  OrdinarySetter.set(Base)
+  */
+// :~

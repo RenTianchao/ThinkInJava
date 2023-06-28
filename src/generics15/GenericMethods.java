@@ -1,4 +1,4 @@
-package generics15;//: generics/GenericMethods.java
+package generics15; // : generics/GenericMethods.java
 
 public class GenericMethods {
     public <T> void f(T x) {
@@ -15,10 +15,11 @@ public class GenericMethods {
         gm.f(gm);
     }
 } /* Output:
-java.lang.String
-java.lang.Integer
-java.lang.Double
-java.lang.Float
-java.lang.Character
-GenericMethods
-*///:~
+  java.lang.String
+  java.lang.Integer
+  java.lang.Double
+  java.lang.Float
+  java.lang.Character
+  GenericMethods
+  */
+// :~

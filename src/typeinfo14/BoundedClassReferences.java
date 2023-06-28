@@ -1,4 +1,4 @@
-package typeinfo14;//: typeinfo/BoundedClassReferences.java
+package typeinfo14; // : typeinfo/BoundedClassReferences.java
 
 public class BoundedClassReferences {
     public static void main(String[] args) {
@@ -7,4 +7,4 @@ public class BoundedClassReferences {
         bounded = Number.class;
         // Or anything else derived from Number.
     }
-} ///:~
+} /// :~

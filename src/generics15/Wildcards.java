@@ -1,5 +1,5 @@
 package generics15;
-//: generics/Wildcards.java
+// : generics/Wildcards.java
 // Exploring the meaning of wildcards.
 
 public class Wildcards {
@@ -42,8 +42,7 @@ public class Wildcards {
         return t;
     }
 
-    static <T>
-    T wildSubtype(Holder<? extends T> holder, T arg) {
+    static <T> T wildSubtype(Holder<? extends T> holder, T arg) {
         // holder.set(arg); // Error:
         //   set(capture of ? extends T) in
         //   Holder<capture of ? extends T>
@@ -52,8 +51,7 @@ public class Wildcards {
         return t;
     }
 
-    static <T>
-    void wildSupertype(Holder<? super T> holder, T arg) {
+    static <T> void wildSupertype(Holder<? super T> holder, T arg) {
         holder.set(arg);
         // T t = holder.get();  // Error:
         //   Incompatible types: found Object, required T
@@ -126,4 +124,4 @@ public class Wildcards {
         //   wildSupertype(Holder<? super T>,T) cannot be
         //  applied to (Holder<capture of ? extends Long>,Long)
     }
-} ///:~
+} /// :~

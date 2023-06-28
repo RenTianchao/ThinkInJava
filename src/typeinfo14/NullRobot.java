@@ -1,4 +1,4 @@
-package typeinfo14;//: typeinfo/NullRobot.java
+package typeinfo14; // : typeinfo/NullRobot.java
 // Using a dynamic proxy to create a Null Object.
 
 import java.lang.reflect.*;
@@ -28,40 +28,35 @@ class NullRobotProxyHandler implements InvocationHandler {
         }
     }
 
-    public Object
-    invoke(Object proxy, Method method, Object[] args)
-            throws Throwable {
+    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         return method.invoke(proxied, args);
     }
 }
 
 public class NullRobot {
-    public static Robot
-    newNullRobot(Class<? extends Robot> type) {
-        return (Robot) Proxy.newProxyInstance(
-                NullRobot.class.getClassLoader(),
-                new Class[]{Null.class, Robot.class},
-                new NullRobotProxyHandler(type));
+    public static Robot newNullRobot(Class<? extends Robot> type) {
+        return (Robot)
+                Proxy.newProxyInstance(
+                        NullRobot.class.getClassLoader(),
+                        new Class[] {Null.class, Robot.class},
+                        new NullRobotProxyHandler(type));
     }
 
     public static void main(String[] args) {
-        Robot[] bots = {
-                new SnowRemovalRobot("SnowBee"),
-                newNullRobot(SnowRemovalRobot.class)
-        };
-        for (Robot bot : bots)
-            Robot.Test.test(bot);
+        Robot[] bots = {new SnowRemovalRobot("SnowBee"), newNullRobot(SnowRemovalRobot.class)};
+        for (Robot bot : bots) Robot.Test.test(bot);
     }
 } /* Output:
-Robot name: SnowBee
-Robot model: SnowBot Series 11
-SnowBee can shovel snow
-SnowBee shoveling snow
-SnowBee can chip ice
-SnowBee chipping ice
-SnowBee can clear the roof
-SnowBee clearing roof
-[Null Robot]
-Robot name: SnowRemovalRobot NullRobot
-Robot model: SnowRemovalRobot NullRobot
-*///:~
+  Robot name: SnowBee
+  Robot model: SnowBot Series 11
+  SnowBee can shovel snow
+  SnowBee shoveling snow
+  SnowBee can chip ice
+  SnowBee chipping ice
+  SnowBee can clear the roof
+  SnowBee clearing roof
+  [Null Robot]
+  Robot name: SnowRemovalRobot NullRobot
+  Robot model: SnowRemovalRobot NullRobot
+  */
+// :~

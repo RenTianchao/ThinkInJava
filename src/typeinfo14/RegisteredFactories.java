@@ -1,4 +1,4 @@
-package typeinfo14;//: typeinfo/RegisteredFactories.java
+package typeinfo14; // : typeinfo/RegisteredFactories.java
 // Registering Class Factories in the base class.
 
 import typeinfo14.factory.*;
@@ -10,8 +10,7 @@ class Part {
         return getClass().getSimpleName();
     }
 
-    static List<Factory<? extends Part>> partFactories =
-            new ArrayList<Factory<? extends Part>>();
+    static List<Factory<? extends Part>> partFactories = new ArrayList<Factory<? extends Part>>();
 
     static {
         // Collections.addAll() gives an "unchecked generic
@@ -33,13 +32,11 @@ class Part {
     }
 }
 
-class Filter extends Part {
-}
+class Filter extends Part {}
 
 class FuelFilter extends Filter {
     // Create a Class Factory for each specific type:
-    public static class Factory
-            implements typeinfo14.factory.Factory<FuelFilter> {
+    public static class Factory implements typeinfo14.factory.Factory<FuelFilter> {
         public FuelFilter create() {
             return new FuelFilter();
         }
@@ -47,8 +44,7 @@ class FuelFilter extends Filter {
 }
 
 class AirFilter extends Filter {
-    public static class Factory
-            implements typeinfo14.factory.Factory<AirFilter> {
+    public static class Factory implements typeinfo14.factory.Factory<AirFilter> {
         public AirFilter create() {
             return new AirFilter();
         }
@@ -56,8 +52,7 @@ class AirFilter extends Filter {
 }
 
 class CabinAirFilter extends Filter {
-    public static class Factory
-            implements typeinfo14.factory.Factory<CabinAirFilter> {
+    public static class Factory implements typeinfo14.factory.Factory<CabinAirFilter> {
         public CabinAirFilter create() {
             return new CabinAirFilter();
         }
@@ -65,20 +60,17 @@ class CabinAirFilter extends Filter {
 }
 
 class OilFilter extends Filter {
-    public static class Factory
-            implements typeinfo14.factory.Factory<OilFilter> {
+    public static class Factory implements typeinfo14.factory.Factory<OilFilter> {
         public OilFilter create() {
             return new OilFilter();
         }
     }
 }
 
-class Belt extends Part {
-}
+class Belt extends Part {}
 
 class FanBelt extends Belt {
-    public static class Factory
-            implements typeinfo14.factory.Factory<FanBelt> {
+    public static class Factory implements typeinfo14.factory.Factory<FanBelt> {
         public FanBelt create() {
             return new FanBelt();
         }
@@ -86,8 +78,7 @@ class FanBelt extends Belt {
 }
 
 class GeneratorBelt extends Belt {
-    public static class Factory
-            implements typeinfo14.factory.Factory<GeneratorBelt> {
+    public static class Factory implements typeinfo14.factory.Factory<GeneratorBelt> {
         public GeneratorBelt create() {
             return new GeneratorBelt();
         }
@@ -95,8 +86,7 @@ class GeneratorBelt extends Belt {
 }
 
 class PowerSteeringBelt extends Belt {
-    public static class Factory
-            implements typeinfo14.factory.Factory<PowerSteeringBelt> {
+    public static class Factory implements typeinfo14.factory.Factory<PowerSteeringBelt> {
         public PowerSteeringBelt create() {
             return new PowerSteeringBelt();
         }
@@ -105,18 +95,18 @@ class PowerSteeringBelt extends Belt {
 
 public class RegisteredFactories {
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++)
-            System.out.println(Part.createRandom());
+        for (int i = 0; i < 10; i++) System.out.println(Part.createRandom());
     }
 } /* Output:
-GeneratorBelt
-CabinAirFilter
-GeneratorBelt
-AirFilter
-PowerSteeringBelt
-CabinAirFilter
-FuelFilter
-PowerSteeringBelt
-PowerSteeringBelt
-FuelFilter
-*///:~
+  GeneratorBelt
+  CabinAirFilter
+  GeneratorBelt
+  AirFilter
+  PowerSteeringBelt
+  CabinAirFilter
+  FuelFilter
+  PowerSteeringBelt
+  PowerSteeringBelt
+  FuelFilter
+  */
+// :~

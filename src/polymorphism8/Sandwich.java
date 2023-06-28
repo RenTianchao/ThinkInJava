@@ -1,4 +1,4 @@
-//: polymorphism/Sandwich.java
+// : polymorphism/Sandwich.java
 // Order of constructor calls.
 package polymorphism8;
 
@@ -53,11 +53,12 @@ public class Sandwich extends PortableLunch {
         new Sandwich();
     }
 } /* Output:
-Meal()
-Lunch()
-PortableLunch()
-Bread()
-Cheese()
-Lettuce()
-Sandwich()
-*///:~
+  Meal()
+  Lunch()
+  PortableLunch()
+  Bread()
+  Cheese()
+  Lettuce()
+  Sandwich()
+  */
+// :~

@@ -1,4 +1,4 @@
-package strings13;//: strings/IntegerMatch.java
+package strings13; // : strings/IntegerMatch.java
 
 public class IntegerMatch {
     public static void main(String[] args) {
@@ -8,8 +8,9 @@ public class IntegerMatch {
         System.out.println("+911".matches("(-|\\+)?\\d+"));
     }
 } /* Output:
-true
-true
-false
-true
-*///:~
+  true
+  true
+  false
+  true
+  */
+// :~

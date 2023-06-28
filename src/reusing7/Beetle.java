@@ -1,4 +1,4 @@
-package reusing7;//: reusing/Beetle.java
+package reusing7; // : reusing/Beetle.java
 // The full process of initialization.
 
 import static net.mindview.util.Print.*;
@@ -12,8 +12,7 @@ class Insect {
         j = 39;
     }
 
-    private static int x1 =
-            printInit("static Insect.x1 initialized");
+    private static int x1 = printInit("static Insect.x1 initialized");
 
     static int printInit(String s) {
         print(s);
@@ -29,19 +28,19 @@ public class Beetle extends Insect {
         print("j = " + j);
     }
 
-    private static int x2 =
-            printInit("static Beetle.x2 initialized");
+    private static int x2 = printInit("static Beetle.x2 initialized");
 
     public static void main(String[] args) {
         print("Beetle constructor");
         Beetle b = new Beetle();
     }
 } /* Output:
-static Insect.x1 initialized
-static Beetle.x2 initialized
-Beetle constructor
-i = 9, j = 0
-Beetle.k initialized
-k = 47
-j = 39
-*///:~
+  static Insect.x1 initialized
+  static Beetle.x2 initialized
+  Beetle constructor
+  i = 9, j = 0
+  Beetle.k initialized
+  k = 47
+  j = 39
+  */
+// :~

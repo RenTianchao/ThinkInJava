@@ -1,8 +1,7 @@
 package generics15;
-//: generics/CRGWithBasicHolder.java
+// : generics/CRGWithBasicHolder.java
 
-class Subtype extends BasicHolder<Subtype> {
-}
+class Subtype extends BasicHolder<Subtype> {}
 
 public class CRGWithBasicHolder {
     public static void main(String[] args) {
@@ -12,5 +11,6 @@ public class CRGWithBasicHolder {
         st1.f();
     }
 } /* Output:
-Subtype
-*///:~
+  Subtype
+  */
+// :~

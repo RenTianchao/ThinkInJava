@@ -1,5 +1,5 @@
 package initialization5;
-//: initialization/Mugs.java
+// : initialization/Mugs.java
 // Java "Instance Initialization."
 
 import static net.mindview.util.Print.*;
@@ -40,15 +40,16 @@ public class Mugs {
         print("new Mugs(1) completed");
     }
 } /* Output:
-Inside main()
-Mug(1)
-Mug(2)
-mug1 & mug2 initialized
-Mugs()
-new Mugs() completed
-Mug(1)
-Mug(2)
-mug1 & mug2 initialized
-Mugs(int)
-new Mugs(1) completed
-*///:~
+  Inside main()
+  Mug(1)
+  Mug(2)
+  mug1 & mug2 initialized
+  Mugs()
+  new Mugs() completed
+  Mug(1)
+  Mug(2)
+  mug1 & mug2 initialized
+  Mugs(int)
+  new Mugs(1) completed
+  */
+// :~

@@ -1,5 +1,5 @@
 package generics15;
-//: generics/ListOfGenerics.java
+// : generics/ListOfGenerics.java
 
 import java.util.*;
 
@@ -13,4 +13,4 @@ public class ListOfGenerics<T> {
     public T get(int index) {
         return array.get(index);
     }
-} ///:~
+} /// :~

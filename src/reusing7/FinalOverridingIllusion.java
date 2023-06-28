@@ -1,4 +1,4 @@
-package reusing7;//: reusing/FinalOverridingIllusion.java
+package reusing7; // : reusing/FinalOverridingIllusion.java
 // It only looks like you can override
 // a private or private final method.
 
@@ -44,14 +44,15 @@ public class FinalOverridingIllusion {
         // You can upcast:
         OverridingPrivate op = op2;
         // But you can't call the methods:
-        //! op.f();
-        //! op.g();
+        // ! op.f();
+        // ! op.g();
         // Same here:
         WithFinals wf = op2;
-        //! wf.f();
-        //! wf.g();
+        // ! wf.f();
+        // ! wf.g();
     }
 } /* Output:
-OverridingPrivate2.f()
-OverridingPrivate2.g()
-*///:~
+  OverridingPrivate2.f()
+  OverridingPrivate2.g()
+  */
+// :~

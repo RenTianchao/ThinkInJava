@@ -1,5 +1,5 @@
 package typeinfo14;
-//: typeinfo/InnerImplementation.java
+// : typeinfo/InnerImplementation.java
 // Private inner classes can't hide from reflection.
 
 import typeinfo14.interfacea.*;
@@ -46,10 +46,11 @@ public class InnerImplementation {
         HiddenImplementation.callHiddenMethod(a, "w");
     }
 } /* Output:
-public C.f()
-InnerA$C
-public C.g()
-package C.u()
-protected C.v()
-private C.w()
-*///:~
+  public C.f()
+  InnerA$C
+  public C.g()
+  package C.u()
+  protected C.v()
+  private C.w()
+  */
+// :~

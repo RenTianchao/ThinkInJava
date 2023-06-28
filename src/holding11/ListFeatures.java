@@ -1,4 +1,4 @@
-package holding11;//: holding/ListFeatures.java
+package holding11; // : holding/ListFeatures.java
 
 import typeinfo14.pets.*;
 import typeinfo14.pets.*;
@@ -63,31 +63,32 @@ public class ListFeatures {
         print("23: " + pa[3].id());
     }
 } /* Output:
-1: [Rat, Manx, Cymric, Mutt, Pug, Cymric, Pug]
-2: [Rat, Manx, Cymric, Mutt, Pug, Cymric, Pug, Hamster]
-3: true
-4: Cymric 2
-5: -1
-6: false
-7: true
-8: [Rat, Manx, Mutt, Pug, Cymric, Pug]
-9: [Rat, Manx, Mutt, Mouse, Pug, Cymric, Pug]
-subList: [Manx, Mutt, Mouse]
-10: true
-sorted subList: [Manx, Mouse, Mutt]
-11: true
-shuffled subList: [Mouse, Manx, Mutt]
-12: true
-sub: [Mouse, Pug]
-13: [Mouse, Pug]
-14: [Rat, Mouse, Mutt, Pug, Cymric, Pug]
-15: [Rat, Mutt, Cymric, Pug]
-16: [Rat, Mouse, Cymric, Pug]
-17: [Rat, Mouse, Mouse, Pug, Cymric, Pug]
-18: false
-19: []
-20: true
-21: [Manx, Cymric, Rat, EgyptianMau]
-22: EgyptianMau
-23: 14
-*///:~
+  1: [Rat, Manx, Cymric, Mutt, Pug, Cymric, Pug]
+  2: [Rat, Manx, Cymric, Mutt, Pug, Cymric, Pug, Hamster]
+  3: true
+  4: Cymric 2
+  5: -1
+  6: false
+  7: true
+  8: [Rat, Manx, Mutt, Pug, Cymric, Pug]
+  9: [Rat, Manx, Mutt, Mouse, Pug, Cymric, Pug]
+  subList: [Manx, Mutt, Mouse]
+  10: true
+  sorted subList: [Manx, Mouse, Mutt]
+  11: true
+  shuffled subList: [Mouse, Manx, Mutt]
+  12: true
+  sub: [Mouse, Pug]
+  13: [Mouse, Pug]
+  14: [Rat, Mouse, Mutt, Pug, Cymric, Pug]
+  15: [Rat, Mutt, Cymric, Pug]
+  16: [Rat, Mouse, Cymric, Pug]
+  17: [Rat, Mouse, Mouse, Pug, Cymric, Pug]
+  18: false
+  19: []
+  20: true
+  21: [Manx, Cymric, Rat, EgyptianMau]
+  22: EgyptianMau
+  23: 14
+  */
+// :~

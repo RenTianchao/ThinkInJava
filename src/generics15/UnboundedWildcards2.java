@@ -1,5 +1,5 @@
 package generics15;
-//: generics/UnboundedWildcards2.java
+// : generics/UnboundedWildcards2.java
 
 import java.util.*;
 
@@ -30,4 +30,4 @@ public class UnboundedWildcards2 {
         assign2(new HashMap<String, Integer>());
         assign3(new HashMap<String, Integer>());
     }
-} ///:~
+} /// :~

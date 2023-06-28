@@ -1,4 +1,4 @@
-package holding11;//: holding/PrintingContainers.java
+package holding11; // : holding/PrintingContainers.java
 // Containers print themselves automatically.
 
 import java.util.*;
@@ -33,12 +33,13 @@ public class PrintingContainers {
         print(fill(new LinkedHashMap<String, String>()));
     }
 } /* Output:
-[rat, cat, dog, dog]
-[rat, cat, dog, dog]
-[dog, cat, rat]
-[cat, dog, rat]
-[rat, cat, dog]
-{dog=Spot, cat=Rags, rat=Fuzzy}
-{cat=Rags, dog=Spot, rat=Fuzzy}
-{rat=Fuzzy, cat=Rags, dog=Spot}
-*///:~
+  [rat, cat, dog, dog]
+  [rat, cat, dog, dog]
+  [dog, cat, rat]
+  [cat, dog, rat]
+  [rat, cat, dog]
+  {dog=Spot, cat=Rags, rat=Fuzzy}
+  {cat=Rags, dog=Spot, rat=Fuzzy}
+  {rat=Fuzzy, cat=Rags, dog=Spot}
+  */
+// :~

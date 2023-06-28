@@ -1,4 +1,4 @@
-package reusing7;//: reusing/SpaceShip.java
+package reusing7; // : reusing/SpaceShip.java
 
 public class SpaceShip extends SpaceShipControls {
     private String name;
@@ -15,4 +15,4 @@ public class SpaceShip extends SpaceShipControls {
         SpaceShip protector = new SpaceShip("NSEA Protector");
         protector.forward(100);
     }
-} ///:~
+} /// :~

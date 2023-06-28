@@ -1,5 +1,5 @@
 package generics15;
-//: generics/GenericsAndCovariance.java
+// : generics/GenericsAndCovariance.java
 
 import java.util.*;
 
@@ -15,4 +15,4 @@ public class GenericsAndCovariance {
         // We know that it returns at least Fruit:
         Fruit f = flist.get(0);
     }
-} ///:~
+} /// :~

@@ -1,5 +1,5 @@
 package initialization5;
-//: initialization/OrderOfInitialization.java
+// : initialization/OrderOfInitialization.java
 // Demonstrates initialization order.
 
 import static net.mindview.util.Print.*;
@@ -36,10 +36,11 @@ public class OrderOfInitialization {
         h.f(); // Shows that construction is done
     }
 } /* Output:
-Window(1)
-Window(2)
-Window(3)
-House()
-Window(33)
-f()
-*///:~
+  Window(1)
+  Window(2)
+  Window(3)
+  House()
+  Window(33)
+  f()
+  */
+// :~

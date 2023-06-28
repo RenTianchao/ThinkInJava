@@ -1,10 +1,8 @@
-package typeinfo14;//: typeinfo/ClassCasts.java
+package typeinfo14; // : typeinfo/ClassCasts.java
 
-class Building {
-}
+class Building {}
 
-class House extends Building {
-}
+class House extends Building {}
 
 public class ClassCasts {
     public static void main(String[] args) {
@@ -13,4 +11,4 @@ public class ClassCasts {
         House h = houseType.cast(b);
         h = (House) b; // ... or just do this.
     }
-} ///:~
+} /// :~

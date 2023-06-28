@@ -1,5 +1,5 @@
 package generics15;
-//: generics/GenericWriting.java
+// : generics/GenericWriting.java
 
 import java.util.*;
 
@@ -17,8 +17,7 @@ public class GenericWriting {
         // Incompatible types: found Fruit, required Apple
     }
 
-    static <T> void
-    writeWithWildcard(List<? super T> list, T item) {
+    static <T> void writeWithWildcard(List<? super T> list, T item) {
         list.add(item);
     }
 
@@ -31,4 +30,4 @@ public class GenericWriting {
         f1();
         f2();
     }
-} ///:~
+} /// :~

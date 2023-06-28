@@ -1,31 +1,25 @@
 package innerclasses10;
 
-//: innerclasses/MultiInterfaces.java
+// : innerclasses/MultiInterfaces.java
 // Two ways that a class can implement multiple interfaces9.
 
-interface A {
-}
+interface A {}
 
-interface B {
-}
+interface B {}
 
-class X implements A, B {
-}
+class X implements A, B {}
 
 class Y implements A {
     B makeB() {
         // Anonymous inner class:
-        return new B() {
-        };
+        return new B() {};
     }
 }
 
 public class MultiInterfaces {
-    static void takesA(A a) {
-    }
+    static void takesA(A a) {}
 
-    static void takesB(B b) {
-    }
+    static void takesB(B b) {}
 
     public static void main(String[] args) {
         X x = new X();
@@ -35,5 +29,4 @@ public class MultiInterfaces {
         takesB(x);
         takesB(y.makeB());
     }
-} ///:~
-
+} /// :~

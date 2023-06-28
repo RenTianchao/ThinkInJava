@@ -1,5 +1,5 @@
 package typeinfo14;
-//: typeinfo/SnowRemovalRobot.java
+// : typeinfo/SnowRemovalRobot.java
 
 import java.util.*;
 
@@ -46,19 +46,20 @@ public class SnowRemovalRobot implements Robot {
                     public void command() {
                         System.out.println(name + " clearing roof");
                     }
-                }
-        );
+                });
     }
+
     public static void main(String[] args) {
         Robot.Test.test(new SnowRemovalRobot("Slusher"));
     }
 } /* Output:
-Robot name: Slusher
-Robot model: SnowBot Series 11
-Slusher can shovel snow
-Slusher shoveling snow
-Slusher can chip ice
-Slusher chipping ice
-Slusher can clear the roof
-Slusher clearing roof
-*///:~
+  Robot name: Slusher
+  Robot model: SnowBot Series 11
+  Slusher can shovel snow
+  Slusher shoveling snow
+  Slusher can chip ice
+  Slusher chipping ice
+  Slusher can clear the roof
+  Slusher clearing roof
+  */
+// :~

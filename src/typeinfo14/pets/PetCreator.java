@@ -1,4 +1,4 @@
-//: typeinfo/pets/PetCreator.java
+// : typeinfo/pets/PetCreator.java
 // Creates random sequences of Pets.
 package typeinfo14.pets;
 
@@ -23,8 +23,7 @@ public abstract class PetCreator {
 
     public Pet[] createArray(int size) {
         Pet[] result = new Pet[size];
-        for (int i = 0; i < size; i++)
-            result[i] = randomPet();
+        for (int i = 0; i < size; i++) result[i] = randomPet();
         return result;
     }
 
@@ -33,4 +32,4 @@ public abstract class PetCreator {
         Collections.addAll(result, createArray(size));
         return result;
     }
-} ///:~
+} /// :~

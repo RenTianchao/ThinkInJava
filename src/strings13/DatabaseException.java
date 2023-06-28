@@ -1,10 +1,8 @@
-package strings13;//: strings/DatabaseException.java
+package strings13; // : strings/DatabaseException.java
 
 public class DatabaseException extends Exception {
-    public DatabaseException(int transactionID, int queryID,
-                             String message) {
-        super(String.format("(t%d, q%d) %s", transactionID,
-                queryID, message));
+    public DatabaseException(int transactionID, int queryID, String message) {
+        super(String.format("(t%d, q%d) %s", transactionID, queryID, message));
     }
 
     public static void main(String[] args) {
@@ -15,5 +13,6 @@ public class DatabaseException extends Exception {
         }
     }
 } /* Output:
-DatabaseException: (t3, q7) Write failed
-*///:~
+  DatabaseException: (t3, q7) Write failed
+  */
+// :~

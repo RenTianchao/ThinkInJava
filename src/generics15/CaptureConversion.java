@@ -1,5 +1,5 @@
 package generics15;
-//: generics/CaptureConversion.java
+// : generics/CaptureConversion.java
 
 public class CaptureConversion {
     static <T> void f1(Holder<T> holder) {
@@ -24,7 +24,8 @@ public class CaptureConversion {
         f2(wildcarded);
     }
 } /* Output:
-Integer
-Object
-Double
-*///:~
+  Integer
+  Object
+  Double
+  */
+// :~

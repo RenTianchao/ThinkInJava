@@ -1,4 +1,4 @@
-package typeinfo14;//: typeinfo/FilledList.java
+package typeinfo14; // : typeinfo/FilledList.java
 
 import java.util.*;
 
@@ -21,8 +21,7 @@ public class FilledList<T> {
     public List<T> create(int nElements) {
         List<T> result = new ArrayList<T>();
         try {
-            for (int i = 0; i < nElements; i++)
-                result.add(type.newInstance());
+            for (int i = 0; i < nElements; i++) result.add(type.newInstance());
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
@@ -30,10 +29,10 @@ public class FilledList<T> {
     }
 
     public static void main(String[] args) {
-        FilledList<CountedInteger> fl =
-                new FilledList<CountedInteger>(CountedInteger.class);
+        FilledList<CountedInteger> fl = new FilledList<CountedInteger>(CountedInteger.class);
         System.out.println(fl.create(15));
     }
 } /* Output:
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
-*///:~
+  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  */
+// :~

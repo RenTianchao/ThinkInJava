@@ -1,5 +1,5 @@
 package generics15;
-//: generics/SimpleQueue.java
+// : generics/SimpleQueue.java
 // A different kind of container that is Iterable
 
 import java.util.*;
@@ -18,4 +18,4 @@ public class SimpleQueue<T> implements Iterable<T> {
     public Iterator<T> iterator() {
         return storage.iterator();
     }
-} ///:~
+} /// :~

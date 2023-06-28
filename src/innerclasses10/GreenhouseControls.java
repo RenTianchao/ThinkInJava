@@ -1,6 +1,6 @@
 package innerclasses10;
 
-//: innerclasses/GreenhouseControls.java
+// : innerclasses/GreenhouseControls.java
 // This produces a specific application of the
 // control system, all in a single class. Inner
 // classes allow you to encapsulate different
@@ -129,8 +129,7 @@ public class GreenhouseControls extends Controller {
         public Restart(long delayTime, Event[] eventList) {
             super(delayTime);
             this.eventList = eventList;
-            for (Event e : eventList)
-                addEvent(e);
+            for (Event e : eventList) addEvent(e);
         }
 
         public void action() {
@@ -160,5 +159,4 @@ public class GreenhouseControls extends Controller {
             return "Terminating";
         }
     }
-} ///:~
-
+} /// :~

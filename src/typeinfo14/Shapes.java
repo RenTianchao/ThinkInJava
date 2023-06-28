@@ -1,4 +1,4 @@
-package typeinfo14;//: typeinfo/Shapes.java
+package typeinfo14; // : typeinfo/Shapes.java
 
 import java.util.*;
 
@@ -7,7 +7,7 @@ abstract class Shape {
         System.out.println(this + ".draw()");
     }
 
-    abstract public String toString();
+    public abstract String toString();
 }
 
 class Circle extends Shape {
@@ -30,14 +30,12 @@ class Triangle extends Shape {
 
 public class Shapes {
     public static void main(String[] args) {
-        List<Shape> shapeList = Arrays.asList(
-                new Circle(), new Square(), new Triangle()
-        );
-        for (Shape shape : shapeList)
-            shape.draw();
+        List<Shape> shapeList = Arrays.asList(new Circle(), new Square(), new Triangle());
+        for (Shape shape : shapeList) shape.draw();
     }
 } /* Output:
-Circle.draw()
-Square.draw()
-Triangle.draw()
-*///:~
+  Circle.draw()
+  Square.draw()
+  Triangle.draw()
+  */
+// :~

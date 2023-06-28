@@ -1,3 +1,8 @@
-//: enumerated/Outcome.java
+// : enumerated/Outcome.java
 package enumerated19;
-public enum Outcome { WIN, LOSE, DRAW } ///:~
+
+public enum Outcome {
+    WIN,
+    LOSE,
+    DRAW
+} /// :~

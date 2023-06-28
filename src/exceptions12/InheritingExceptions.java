@@ -1,8 +1,7 @@
-package exceptions12;//: exceptions12/InheritingExceptions.java
+package exceptions12; // : exceptions12/InheritingExceptions.java
 // Creating your own exceptions12.
 
-class SimpleException extends Exception {
-}
+class SimpleException extends Exception {}
 
 public class InheritingExceptions {
     public void f() throws SimpleException {
@@ -19,6 +18,7 @@ public class InheritingExceptions {
         }
     }
 } /* Output:
-Throw SimpleException from f()
-Caught it!
-*///:~
+  Throw SimpleException from f()
+  Caught it!
+  */
+// :~

@@ -1,12 +1,11 @@
-//: typeinfo/pets/Pets.java
+// : typeinfo/pets/Pets.java
 // Facade to produce a default PetCreator.
 package typeinfo14.pets;
 
 import java.util.*;
 
 public class Pets {
-    public static final PetCreator creator =
-            new LiteralPetCreator();
+    public static final PetCreator creator = new LiteralPetCreator();
 
     public static Pet randomPet() {
         return creator.randomPet();
@@ -19,4 +18,4 @@ public class Pets {
     public static ArrayList<Pet> arrayList(int size) {
         return creator.arrayList(size);
     }
-} ///:~
+} /// :~

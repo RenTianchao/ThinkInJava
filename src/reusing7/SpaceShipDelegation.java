@@ -1,9 +1,8 @@
-package reusing7;//: reusing/SpaceShipDelegation.java
+package reusing7; // : reusing/SpaceShipDelegation.java
 
 public class SpaceShipDelegation {
     private String name;
-    private SpaceShipControls controls =
-            new SpaceShipControls();
+    private SpaceShipControls controls = new SpaceShipControls();
 
     public SpaceShipDelegation(String name) {
         this.name = name;
@@ -39,8 +38,7 @@ public class SpaceShipDelegation {
     }
 
     public static void main(String[] args) {
-        SpaceShipDelegation protector =
-                new SpaceShipDelegation("NSEA Protector");
+        SpaceShipDelegation protector = new SpaceShipDelegation("NSEA Protector");
         protector.forward(100);
     }
-} ///:~
+} /// :~

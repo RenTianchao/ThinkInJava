@@ -1,4 +1,4 @@
-//: net/mindview/util/FourTuple.java
+// : net/mindview/util/FourTuple.java
 package net.mindview.util;
 
 public class FourTuple<A, B, C, D> extends ThreeTuple<A, B, C> {
@@ -10,7 +10,6 @@ public class FourTuple<A, B, C, D> extends ThreeTuple<A, B, C> {
     }
 
     public String toString() {
-        return "(" + first + ", " + second + ", " +
-                third + ", " + fourth + ")";
+        return "(" + first + ", " + second + ", " + third + ", " + fourth + ")";
     }
-} ///:~
+} /// :~

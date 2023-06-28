@@ -1,5 +1,5 @@
 package generics15;
-//: generics/ReturnGenericType.java
+// : generics/ReturnGenericType.java
 
 class ReturnGenericType<T extends HasF> {
     private T obj;
@@ -11,4 +11,4 @@ class ReturnGenericType<T extends HasF> {
     public T get() {
         return obj;
     }
-} ///:~
+} /// :~

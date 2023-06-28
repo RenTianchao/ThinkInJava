@@ -1,12 +1,10 @@
-package exceptions12;//: exceptions12/OnOffSwitch.java
+package exceptions12; // : exceptions12/OnOffSwitch.java
 // Why use finally?
 
 public class OnOffSwitch {
     private static Switch sw = new Switch();
 
-    public static void f()
-            throws OnOffException1, OnOffException2 {
-    }
+    public static void f() throws OnOffException1, OnOffException2 {}
 
     public static void main(String[] args) {
         try {
@@ -23,6 +21,7 @@ public class OnOffSwitch {
         }
     }
 } /* Output:
-on
-off
-*///:~
+  on
+  off
+  */
+// :~

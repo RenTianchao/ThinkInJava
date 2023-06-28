@@ -1,16 +1,19 @@
 package object2;
 
-//: object/HelloDate.java
+// : object/HelloDate.java
 import java.util.*;
 
-/** The first Thinking in Java example program.
- * Displays a string and today's date.
+/**
+ * The first Thinking in Java example program. Displays a string and today's date.
+ *
  * @author Bruce Eckel
  * @author www.MindView.net
  * @version 4.0
  */
 public class HelloDate {
-    /** Entry point to class & application.
+    /**
+     * Entry point to class & application.
+     *
      * @param args array of string arguments
      * @throws exceptions12 No exceptions12 thrown
      */
@@ -19,6 +22,7 @@ public class HelloDate {
         System.out.println(new Date());
     }
 } /* Output: (55% match)
-Hello, it's:
-Wed Oct 05 14:39:36 MDT 2005
-*///:~
+  Hello, it's:
+  Wed Oct 05 14:39:36 MDT 2005
+  */
+// :~

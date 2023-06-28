@@ -1,4 +1,4 @@
-package typeinfo14;//: typeinfo/Robot.java
+package typeinfo14; // : typeinfo/Robot.java
 
 import java.util.*;
 
@@ -13,8 +13,7 @@ public interface Robot {
 
     class Test {
         public static void test(Robot r) {
-            if (r instanceof Null)
-                System.out.println("[Null Robot]");
+            if (r instanceof Null) System.out.println("[Null Robot]");
             System.out.println("Robot name: " + r.name());
             System.out.println("Robot model: " + r.model());
             for (Operation operation : r.operations()) {
@@ -23,4 +22,4 @@ public interface Robot {
             }
         }
     }
-} ///:~
+} /// :~

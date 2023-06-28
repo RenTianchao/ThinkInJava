@@ -1,15 +1,15 @@
 package object2;
 
-//: object/Documentation3.java
+// : object/Documentation3.java
 
 /**
  * You can <em>even</em> insert a list:
+ *
  * <ol>
- * <li> Item one
- * <li> Item two
- * <li> Item three
+ *   <li>Item one
+ *   <li>Item two
+ *   <li>Item three
  * </ol>
  */
-public class Documentation3 {
-}
-///:~
+public class Documentation3 {}
+/// :~

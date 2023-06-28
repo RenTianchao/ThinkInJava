@@ -1,15 +1,13 @@
 package typeinfo14;
-//: typeinfo/InterfaceViolation.java
+// : typeinfo/InterfaceViolation.java
 // Sneaking around an interface.
 
 import typeinfo14.interfacea.*;
 
 class B implements A {
-    public void f() {
-    }
+    public void f() {}
 
-    public void g() {
-    }
+    public void g() {}
 }
 
 public class InterfaceViolation {
@@ -24,5 +22,6 @@ public class InterfaceViolation {
         }
     }
 } /* Output:
-B
-*///:~
+  B
+  */
+// :~

@@ -1,5 +1,5 @@
 package generics15;
-//: generics/TupleTest2.java
+// : generics/TupleTest2.java
 
 import net.mindview.util.*;
 
@@ -23,8 +23,7 @@ public class TupleTest2 {
     }
 
     static FiveTuple<Vehicle, Amphibian, String, Integer, Double> k() {
-        return tuple(new Vehicle(), new Amphibian(),
-                "hi", 47, 11.1);
+        return tuple(new Vehicle(), new Amphibian(), "hi", 47, 11.1);
     }
 
     public static void main(String[] args) {
@@ -36,9 +35,10 @@ public class TupleTest2 {
         System.out.println(k());
     }
 } /* Output: (80% match)
-(hi, 47)
-(hi, 47)
-(Amphibian@7d772e, hi, 47)
-(Vehicle@757aef, Amphibian@d9f9c3, hi, 47)
-(Vehicle@1a46e30, Amphibian@3e25a5, hi, 47, 11.1)
-*///:~
+  (hi, 47)
+  (hi, 47)
+  (Amphibian@7d772e, hi, 47)
+  (Vehicle@757aef, Amphibian@d9f9c3, hi, 47)
+  (Vehicle@1a46e30, Amphibian@3e25a5, hi, 47, 11.1)
+  */
+// :~

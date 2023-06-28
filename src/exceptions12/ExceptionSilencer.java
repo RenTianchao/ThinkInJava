@@ -1,4 +1,4 @@
-package exceptions12;//: exceptions12/ExceptionSilencer.java
+package exceptions12; // : exceptions12/ExceptionSilencer.java
 
 public class ExceptionSilencer {
     public static void main(String[] args) {
@@ -10,4 +10,4 @@ public class ExceptionSilencer {
             return;
         }
     }
-} ///:~
+} /// :~

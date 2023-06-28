@@ -1,4 +1,4 @@
-//: net/mindview/util/TextFile.java
+// : net/mindview/util/TextFile.java
 // Static functions for reading and writing text files as
 // a single string, and treating a file as an ArrayList.
 package net.mindview.util;
@@ -11,8 +11,8 @@ public class TextFile extends ArrayList<String> {
     public static String read(String fileName) {
         StringBuilder sb = new StringBuilder();
         try {
-            BufferedReader in = new BufferedReader(new FileReader(
-                    new File(fileName).getAbsoluteFile()));
+            BufferedReader in =
+                    new BufferedReader(new FileReader(new File(fileName).getAbsoluteFile()));
             try {
                 String s;
                 while ((s = in.readLine()) != null) {
@@ -31,8 +31,7 @@ public class TextFile extends ArrayList<String> {
     // Write a single file in one method call:
     public static void write(String fileName, String text) {
         try {
-            PrintWriter out = new PrintWriter(
-                    new File(fileName).getAbsoluteFile());
+            PrintWriter out = new PrintWriter(new File(fileName).getAbsoluteFile());
             try {
                 out.print(text);
             } finally {
@@ -58,11 +57,9 @@ public class TextFile extends ArrayList<String> {
 
     public void write(String fileName) {
         try {
-            PrintWriter out = new PrintWriter(
-                    new File(fileName).getAbsoluteFile());
+            PrintWriter out = new PrintWriter(new File(fileName).getAbsoluteFile());
             try {
-                for (String item : this)
-                    out.println(item);
+                for (String item : this) out.println(item);
             } finally {
                 out.close();
             }
@@ -78,11 +75,11 @@ public class TextFile extends ArrayList<String> {
         TextFile text = new TextFile("test.txt");
         text.write("test2.txt");
         // Break into unique sorted list of words:
-        TreeSet<String> words = new TreeSet<String>(
-                new TextFile("TextFile.java", "\\W+"));
+        TreeSet<String> words = new TreeSet<String>(new TextFile("TextFile.java", "\\W+"));
         // Display the capitalized words:
         System.out.println(words.headSet("a"));
     }
 } /* Output:
-[0, ArrayList, Arrays, Break, BufferedReader, BufferedWriter, Clean, Display, File, FileReader, FileWriter, IOException, Normally, Output, PrintWriter, Read, Regular, RuntimeException, Simple, Static, String, StringBuilder, System, TextFile, Tools, TreeSet, W, Write]
-*///:~
+  [0, ArrayList, Arrays, Break, BufferedReader, BufferedWriter, Clean, Display, File, FileReader, FileWriter, IOException, Normally, Output, PrintWriter, Read, Regular, RuntimeException, Simple, Static, String, StringBuilder, System, TextFile, Tools, TreeSet, W, Write]
+  */
+// :~

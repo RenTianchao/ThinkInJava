@@ -1,4 +1,4 @@
-//: generics/coffee/Coffee.java
+// : generics/coffee/Coffee.java
 package generics15.coffee;
 
 public class Coffee {
@@ -8,4 +8,4 @@ public class Coffee {
     public String toString() {
         return getClass().getSimpleName() + " " + id;
     }
-} ///:~
+} /// :~

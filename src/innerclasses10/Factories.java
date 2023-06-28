@@ -1,7 +1,7 @@
 package innerclasses10;
 
-//: innerclasses/Factories.java
-//import static net.mindview.util.Print.*;
+// : innerclasses/Factories.java
+// import static net.mindview.util.Print.*;
 
 interface Service {
     void method1();
@@ -14,15 +14,14 @@ interface ServiceFactory {
 }
 
 class Implementation1 implements Service {
-    private Implementation1() {
-    }
+    private Implementation1() {}
 
     public void method1() {
-//        print("Implementation1 method1");
+        //        print("Implementation1 method1");
     }
 
     public void method2() {
-//        print("Implementation1 method2");
+        //        print("Implementation1 method2");
     }
 
     public static ServiceFactory factory =
@@ -34,15 +33,14 @@ class Implementation1 implements Service {
 }
 
 class Implementation2 implements Service {
-    private Implementation2() {
-    }
+    private Implementation2() {}
 
     public void method1() {
-//        print("Implementation2 method1");
+        //        print("Implementation2 method1");
     }
 
     public void method2() {
-//        print("Implementation2 method2");
+        //        print("Implementation2 method2");
     }
 
     public static ServiceFactory factory =
@@ -66,9 +64,9 @@ public class Factories {
         serviceConsumer(Implementation2.factory);
     }
 } /* Output:
-Implementation1 method1
-Implementation1 method2
-Implementation2 method1
-Implementation2 method2
-*///:~
-
+  Implementation1 method1
+  Implementation1 method2
+  Implementation2 method1
+  Implementation2 method2
+  */
+// :~

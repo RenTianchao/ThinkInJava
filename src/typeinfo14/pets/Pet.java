@@ -1,4 +1,4 @@
-//: typeinfo/pets/Pet.java
+// : typeinfo/pets/Pet.java
 package typeinfo14.pets;
 
 public class Pet extends Individual {
@@ -9,4 +9,4 @@ public class Pet extends Individual {
     public Pet() {
         super();
     }
-} ///:~
+} /// :~

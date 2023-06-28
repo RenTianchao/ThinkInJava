@@ -1,12 +1,11 @@
-package exceptions12;//: exceptions12/LoggingExceptions.java
+package exceptions12; // : exceptions12/LoggingExceptions.java
 // An exception that reports through a Logger.
 
 import java.util.logging.*;
 import java.io.*;
 
 class LoggingException extends Exception {
-    private static Logger logger =
-            Logger.getLogger("LoggingException");
+    private static Logger logger = Logger.getLogger("LoggingException");
 
     public LoggingException() {
         StringWriter trace = new StringWriter();
@@ -29,14 +28,15 @@ public class LoggingExceptions {
         }
     }
 } /* Output: (85% match)
-Aug 30, 2005 4:02:31 PM LoggingException <init>
-SEVERE: LoggingException
-        at LoggingExceptions.main(LoggingExceptions.java:19)
+  Aug 30, 2005 4:02:31 PM LoggingException <init>
+  SEVERE: LoggingException
+          at LoggingExceptions.main(LoggingExceptions.java:19)
 
-Caught LoggingException
-Aug 30, 2005 4:02:31 PM LoggingException <init>
-SEVERE: LoggingException
-        at LoggingExceptions.main(LoggingExceptions.java:24)
+  Caught LoggingException
+  Aug 30, 2005 4:02:31 PM LoggingException <init>
+  SEVERE: LoggingException
+          at LoggingExceptions.main(LoggingExceptions.java:24)
 
-Caught LoggingException
-*///:~
+  Caught LoggingException
+  */
+// :~

@@ -1,4 +1,4 @@
-package typeinfo14;//: typeinfo/SweetShop.java
+package typeinfo14; // : typeinfo/SweetShop.java
 // Examination of the way the class loader works.
 
 import static net.mindview.util.Print.*;
@@ -36,11 +36,12 @@ public class SweetShop {
         print("After creating Cookie");
     }
 } /* Output:
-inside main
-Loading Candy
-After creating Candy
-Loading Gum
-After Class.forName("Gum")
-Loading Cookie
-After creating Cookie
-*///:~
+  inside main
+  Loading Candy
+  After creating Candy
+  Loading Gum
+  After Class.forName("Gum")
+  Loading Cookie
+  After creating Cookie
+  */
+// :~

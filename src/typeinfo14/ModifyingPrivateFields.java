@@ -1,5 +1,5 @@
 package typeinfo14;
-//: typeinfo/ModifyingPrivateFields.java
+// : typeinfo/ModifyingPrivateFields.java
 
 import java.lang.reflect.*;
 
@@ -34,11 +34,12 @@ public class ModifyingPrivateFields {
         System.out.println(pf);
     }
 } /* Output:
-i = 1, I'm totally safe, Am I safe?
-f.getInt(pf): 1
-i = 47, I'm totally safe, Am I safe?
-f.get(pf): I'm totally safe
-i = 47, I'm totally safe, Am I safe?
-f.get(pf): Am I safe?
-i = 47, I'm totally safe, No, you're not!
-*///:~
+  i = 1, I'm totally safe, Am I safe?
+  f.getInt(pf): 1
+  i = 47, I'm totally safe, Am I safe?
+  f.get(pf): I'm totally safe
+  i = 47, I'm totally safe, Am I safe?
+  f.get(pf): Am I safe?
+  i = 47, I'm totally safe, No, you're not!
+  */
+// :~

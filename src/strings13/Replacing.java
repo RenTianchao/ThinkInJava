@@ -1,4 +1,4 @@
-package strings13;//: strings/Replacing.java
+package strings13; // : strings/Replacing.java
 
 import static net.mindview.util.Print.*;
 
@@ -10,6 +10,7 @@ public class Replacing {
         print(s.replaceAll("shrubbery|tree|herring", "banana"));
     }
 } /* Output:
-Then, when you have located the shrubbery, you must cut down the mightiest tree in the forest... with... a herring!
-Then, when you have found the banana, you must cut down the mightiest banana in the forest... with... a banana!
-*///:~
+  Then, when you have located the shrubbery, you must cut down the mightiest tree in the forest... with... a herring!
+  Then, when you have found the banana, you must cut down the mightiest banana in the forest... with... a banana!
+  */
+// :~

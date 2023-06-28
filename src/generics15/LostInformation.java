@@ -1,18 +1,14 @@
-package generics15;//: generics/LostInformation.java
+package generics15; // : generics/LostInformation.java
 
 import java.util.*;
 
-class Frob {
-}
+class Frob {}
 
-class Fnorkle {
-}
+class Fnorkle {}
 
-class Quark<Q> {
-}
+class Quark<Q> {}
 
-class Particle<POSITION, MOMENTUM> {
-}
+class Particle<POSITION, MOMENTUM> {}
 
 public class LostInformation {
     public static void main(String[] args) {
@@ -20,18 +16,15 @@ public class LostInformation {
         Map<Frob, Fnorkle> map = new HashMap<Frob, Fnorkle>();
         Quark<Fnorkle> quark = new Quark<Fnorkle>();
         Particle<Long, Double> p = new Particle<Long, Double>();
-        System.out.println(Arrays.toString(
-                list.getClass().getTypeParameters()));
-        System.out.println(Arrays.toString(
-                map.getClass().getTypeParameters()));
-        System.out.println(Arrays.toString(
-                quark.getClass().getTypeParameters()));
-        System.out.println(Arrays.toString(
-                p.getClass().getTypeParameters()));
+        System.out.println(Arrays.toString(list.getClass().getTypeParameters()));
+        System.out.println(Arrays.toString(map.getClass().getTypeParameters()));
+        System.out.println(Arrays.toString(quark.getClass().getTypeParameters()));
+        System.out.println(Arrays.toString(p.getClass().getTypeParameters()));
     }
 } /* Output:
-[E]
-[K, V]
-[Q]
-[POSITION, MOMENTUM]
-*///:~
+  [E]
+  [K, V]
+  [Q]
+  [POSITION, MOMENTUM]
+  */
+// :~

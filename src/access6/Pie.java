@@ -1,6 +1,8 @@
-package access6;//: access/Pie.java
+package access6; // : access/Pie.java
 // The other class.
 
 class Pie {
-  void f() { System.out.println("Pie.f()"); }
-} ///:~
+    void f() {
+        System.out.println("Pie.f()");
+    }
+} /// :~

@@ -1,5 +1,5 @@
 package generics15;
-//: generics/ArrayMaker.java
+// : generics/ArrayMaker.java
 
 import java.lang.reflect.*;
 import java.util.*;
@@ -17,11 +17,11 @@ public class ArrayMaker<T> {
     }
 
     public static void main(String[] args) {
-        ArrayMaker<String> stringMaker =
-                new ArrayMaker<String>(String.class);
+        ArrayMaker<String> stringMaker = new ArrayMaker<String>(String.class);
         String[] stringArray = stringMaker.create(9);
         System.out.println(Arrays.toString(stringArray));
     }
 } /* Output:
-[null, null, null, null, null, null, null, null, null]
-*///:~
+  [null, null, null, null, null, null, null, null, null]
+  */
+// :~

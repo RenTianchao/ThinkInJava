@@ -1,4 +1,4 @@
-package strings13;//: strings/SimpleFormat.java
+package strings13; // : strings/SimpleFormat.java
 
 public class SimpleFormat {
     public static void main(String[] args) {
@@ -12,7 +12,8 @@ public class SimpleFormat {
         System.out.printf("Row 1: [%d %f]\n", x, y);
     }
 } /* Output:
-Row 1: [5 5.332542]
-Row 1: [5 5.332542]
-Row 1: [5 5.332542]
-*///:~
+  Row 1: [5 5.332542]
+  Row 1: [5 5.332542]
+  Row 1: [5 5.332542]
+  */
+// :~

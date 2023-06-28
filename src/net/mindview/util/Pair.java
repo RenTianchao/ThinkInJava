@@ -1,4 +1,4 @@
-//: net/mindview/util/Pair.java
+// : net/mindview/util/Pair.java
 package net.mindview.util;
 
 public class Pair<K, V> {
@@ -9,4 +9,4 @@ public class Pair<K, V> {
         key = k;
         value = v;
     }
-} ///:~
+} /// :~

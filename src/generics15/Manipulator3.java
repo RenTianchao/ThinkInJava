@@ -1,5 +1,5 @@
 package generics15;
-//: generics/Manipulator3.java
+// : generics/Manipulator3.java
 
 class Manipulator3 {
     private HasF obj;
@@ -11,4 +11,4 @@ class Manipulator3 {
     public void manipulate() {
         obj.f();
     }
-} ///:~
+} /// :~

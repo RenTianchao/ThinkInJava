@@ -1,4 +1,4 @@
-//: polymorphism/shape/Circle.java
+// : polymorphism/shape/Circle.java
 package polymorphism8.shape;
 
 import static net.mindview.util.Print.*;
@@ -11,4 +11,4 @@ public class Circle extends Shape {
     public void erase() {
         print("Circle.erase()");
     }
-} ///:~
+} /// :~

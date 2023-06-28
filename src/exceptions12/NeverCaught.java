@@ -1,4 +1,4 @@
-package exceptions12;//: exceptions12/NeverCaught.java
+package exceptions12; // : exceptions12/NeverCaught.java
 // Ignoring RuntimeExceptions.
 // {ThrowsException}
 
@@ -14,4 +14,4 @@ public class NeverCaught {
     public static void main(String[] args) {
         g();
     }
-} ///:~
+} /// :~

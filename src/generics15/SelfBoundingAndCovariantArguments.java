@@ -1,12 +1,11 @@
 package generics15;
-//: generics/SelfBoundingAndCovariantArguments.java
+// : generics/SelfBoundingAndCovariantArguments.java
 
 interface SelfBoundSetter<T extends SelfBoundSetter<T>> {
     void set(T arg);
 }
 
-interface Setter extends SelfBoundSetter<Setter> {
-}
+interface Setter extends SelfBoundSetter<Setter> {}
 
 public class SelfBoundingAndCovariantArguments {
     void testA(Setter s1, Setter s2, SelfBoundSetter sbs) {
@@ -15,4 +14,4 @@ public class SelfBoundingAndCovariantArguments {
         // set(Setter) in SelfBoundSetter<Setter>
         // cannot be applied to (SelfBoundSetter)
     }
-} ///:~
+} /// :~

@@ -1,9 +1,8 @@
 package generics15;
-//: generics/ComparablePet.java
+// : generics/ComparablePet.java
 
-public class ComparablePet
-        implements Comparable<ComparablePet> {
+public class ComparablePet implements Comparable<ComparablePet> {
     public int compareTo(ComparablePet arg) {
         return 0;
     }
-} ///:~
+} /// :~

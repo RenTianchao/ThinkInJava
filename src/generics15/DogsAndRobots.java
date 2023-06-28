@@ -1,5 +1,5 @@
 package generics15;
-//: generics/DogsAndRobots.java
+// : generics/DogsAndRobots.java
 // No latent typing in Java
 
 import typeinfo14.pets.*;
@@ -15,8 +15,7 @@ class PerformingDog extends Dog implements Performs {
         print("Sitting");
     }
 
-    public void reproduce() {
-    }
+    public void reproduce() {}
 }
 
 class Robot implements Performs {
@@ -28,13 +27,11 @@ class Robot implements Performs {
         print("Clank!");
     }
 
-    public void oilChange() {
-    }
+    public void oilChange() {}
 }
 
 class Communicate {
-    public static <T extends Performs>
-    void perform(T performer) {
+    public static <T extends Performs> void perform(T performer) {
         performer.speak();
         performer.sit();
     }
@@ -48,8 +45,9 @@ public class DogsAndRobots {
         Communicate.perform(r);
     }
 } /* Output:
-Woof!
-Sitting
-Click!
-Clank!
-*///:~
+  Woof!
+  Sitting
+  Click!
+  Clank!
+  */
+// :~

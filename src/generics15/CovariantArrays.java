@@ -1,17 +1,13 @@
 package generics15;
-//: generics/CovariantArrays.java
+// : generics/CovariantArrays.java
 
-class Fruit {
-}
+class Fruit {}
 
-class Apple extends Fruit {
-}
+class Apple extends Fruit {}
 
-class Jonathan extends Apple {
-}
+class Jonathan extends Apple {}
 
-class Orange extends Fruit {
-}
+class Orange extends Fruit {}
 
 public class CovariantArrays {
     public static void main(String[] args) {
@@ -33,6 +29,7 @@ public class CovariantArrays {
         }
     }
 } /* Output:
-java.lang.ArrayStoreException: Fruit
-java.lang.ArrayStoreException: Orange
-*///:~
+  java.lang.ArrayStoreException: Fruit
+  java.lang.ArrayStoreException: Orange
+  */
+// :~

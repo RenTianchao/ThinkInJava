@@ -1,4 +1,4 @@
-package polymorphism8;//: polymorphism/CovariantReturn.java
+package polymorphism8; // : polymorphism/CovariantReturn.java
 
 class Grain {
     public String toString() {
@@ -34,6 +34,7 @@ public class CovariantReturn {
         System.out.println(g);
     }
 } /* Output:
-Grain
-Wheat
-*///:~
+  Grain
+  Wheat
+  */
+// :~

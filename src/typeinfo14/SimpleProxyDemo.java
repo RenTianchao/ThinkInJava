@@ -1,4 +1,4 @@
-package typeinfo14;//: typeinfo/SimpleProxyDemo.java
+package typeinfo14; // : typeinfo/SimpleProxyDemo.java
 
 import static net.mindview.util.Print.*;
 
@@ -47,10 +47,11 @@ class SimpleProxyDemo {
         consumer(new SimpleProxy(new RealObject()));
     }
 } /* Output:
-doSomething
-somethingElse bonobo
-SimpleProxy doSomething
-doSomething
-SimpleProxy somethingElse bonobo
-somethingElse bonobo
-*///:~
+  doSomething
+  somethingElse bonobo
+  SimpleProxy doSomething
+  doSomething
+  SimpleProxy somethingElse bonobo
+  somethingElse bonobo
+  */
+// :~

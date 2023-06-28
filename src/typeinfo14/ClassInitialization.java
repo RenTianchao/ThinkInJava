@@ -1,11 +1,10 @@
-package typeinfo14;//: typeinfo/ClassInitialization.java
+package typeinfo14; // : typeinfo/ClassInitialization.java
 
 import java.util.*;
 
 class Initable {
     static final int staticFinal = 47;
-    static final int staticFinal2 =
-            ClassInitialization.rand.nextInt(1000);
+    static final int staticFinal2 = ClassInitialization.rand.nextInt(1000);
 
     static {
         System.out.println("Initializing Initable");
@@ -45,13 +44,14 @@ public class ClassInitialization {
         System.out.println(Initable3.staticNonFinal);
     }
 } /* Output:
-After creating Initable ref
-47
-Initializing Initable
-258
-Initializing Initable2
-147
-Initializing Initable3
-After creating Initable3 ref
-74
-*///:~
+  After creating Initable ref
+  47
+  Initializing Initable
+  258
+  Initializing Initable2
+  147
+  Initializing Initable3
+  After creating Initable3 ref
+  74
+  */
+// :~

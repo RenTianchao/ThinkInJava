@@ -1,5 +1,5 @@
 package generics15;
-//: generics/LatentReflection.java
+// : generics/LatentReflection.java
 // Using Reflection to produce latent typing.
 
 import java.lang.reflect.*;
@@ -8,15 +8,13 @@ import static net.mindview.util.Print.*;
 
 // Does not implement Performs:
 class Mime {
-    public void walkAgainstTheWind() {
-    }
+    public void walkAgainstTheWind() {}
 
     public void sit() {
         print("Pretending to sit");
     }
 
-    public void pushInvisibleWalls() {
-    }
+    public void pushInvisibleWalls() {}
 
     public String toString() {
         return "Mime";
@@ -33,8 +31,7 @@ class SmartDog {
         print("Sitting");
     }
 
-    public void reproduce() {
-    }
+    public void reproduce() {}
 }
 
 class CommunicateReflectively {
@@ -66,10 +63,11 @@ public class LatentReflection {
         CommunicateReflectively.perform(new Mime());
     }
 } /* Output:
-Woof!
-Sitting
-Click!
-Clank!
-Mime cannot speak
-Pretending to sit
-*///:~
+  Woof!
+  Sitting
+  Click!
+  Clank!
+  Mime cannot speak
+  Pretending to sit
+  */
+// :~

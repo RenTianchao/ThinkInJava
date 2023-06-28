@@ -1,4 +1,4 @@
-package typeinfo14;//: typeinfo/Position.java
+package typeinfo14; // : typeinfo/Position.java
 
 class Position {
     private String title;
@@ -7,8 +7,7 @@ class Position {
     public Position(String jobTitle, Person employee) {
         title = jobTitle;
         person = employee;
-        if (person == null)
-            person = Person.NULL;
+        if (person == null) person = Person.NULL;
     }
 
     public Position(String jobTitle) {
@@ -30,11 +29,10 @@ class Position {
 
     public void setPerson(Person newPerson) {
         person = newPerson;
-        if (person == null)
-            person = Person.NULL;
+        if (person == null) person = Person.NULL;
     }
 
     public String toString() {
         return "Position: " + title + " " + person;
     }
-} ///:~
+} /// :~

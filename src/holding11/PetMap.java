@@ -1,4 +1,4 @@
-package holding11;//: holding/PetMap.java
+package holding11; // : holding/PetMap.java
 
 import typeinfo14.pets.*;
 
@@ -19,8 +19,9 @@ public class PetMap {
         print(petMap.containsValue(dog));
     }
 } /* Output:
-{My Cat=Cat Molly, My Hamster=Hamster Bosco, My Dog=Dog Ginger}
-Dog Ginger
-true
-true
-*///:~
+  {My Cat=Cat Molly, My Hamster=Hamster Bosco, My Dog=Dog Ginger}
+  Dog Ginger
+  true
+  true
+  */
+// :~

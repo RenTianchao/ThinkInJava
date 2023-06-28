@@ -1,4 +1,4 @@
-//: net/mindview/util/Deque.java
+// : net/mindview/util/Deque.java
 // Creating a Deque from a LinkedList.
 package net.mindview.util;
 
@@ -39,4 +39,4 @@ public class Deque<T> {
         return deque.toString();
     }
     // And other methods as necessary...
-} ///:~
+} /// :~

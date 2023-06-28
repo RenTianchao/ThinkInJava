@@ -1,5 +1,5 @@
 package generics15;
-//: generics/SimpleDogsAndRobots.java
+// : generics/SimpleDogsAndRobots.java
 // Removing the generic; code still works.
 
 class CommunicateSimply {
@@ -15,8 +15,9 @@ public class SimpleDogsAndRobots {
         CommunicateSimply.perform(new Robot());
     }
 } /* Output:
-Woof!
-Sitting
-Click!
-Clank!
-*///:~
+  Woof!
+  Sitting
+  Click!
+  Clank!
+  */
+// :~

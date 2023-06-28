@@ -1,6 +1,6 @@
 package innerclasses10.controller;
 
-//: innerclasses/controller/Event.java
+// : innerclasses/controller/Event.java
 // The common methods for any control event.
 
 public abstract class Event {
@@ -21,5 +21,4 @@ public abstract class Event {
     }
 
     public abstract void action();
-} ///:~
-
+} /// :~

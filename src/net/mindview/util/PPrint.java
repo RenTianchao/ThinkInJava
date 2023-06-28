@@ -1,4 +1,4 @@
-//: net/mindview/util/PPrint.java
+// : net/mindview/util/PPrint.java
 // Pretty-printer for collections
 package net.mindview.util;
 
@@ -9,12 +9,10 @@ public class PPrint {
         if (c.size() == 0) return "[]";
         StringBuilder result = new StringBuilder("[");
         for (Object elem : c) {
-            if (c.size() != 1)
-                result.append("\n  ");
+            if (c.size() != 1) result.append("\n  ");
             result.append(elem);
         }
-        if (c.size() != 1)
-            result.append("\n");
+        if (c.size() != 1) result.append("\n");
         result.append("]");
         return result.toString();
     }
@@ -26,4 +24,4 @@ public class PPrint {
     public static void pprint(Object[] c) {
         System.out.println(pformat(Arrays.asList(c)));
     }
-} ///:~
+} /// :~

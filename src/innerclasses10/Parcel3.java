@@ -1,6 +1,6 @@
 package innerclasses10;
 
-//: innerclasses10/Parcel3.java
+// : innerclasses10/Parcel3.java
 // Using .new to create instances of inner classes.
 
 public class Parcel3 {
@@ -31,4 +31,4 @@ public class Parcel3 {
         Parcel3.Contents c = p.new Contents();
         Parcel3.Destination d = p.new Destination("Tasmania");
     }
-} ///:~
+} /// :~

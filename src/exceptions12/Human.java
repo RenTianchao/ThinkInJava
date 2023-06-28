@@ -1,11 +1,9 @@
-package exceptions12;//: exceptions12/Human.java
+package exceptions12; // : exceptions12/Human.java
 // Catching exception hierarchies.
 
-class Annoyance extends Exception {
-}
+class Annoyance extends Exception {}
 
-class Sneeze extends Annoyance {
-}
+class Sneeze extends Annoyance {}
 
 public class Human {
     public static void main(String[] args) {
@@ -25,6 +23,7 @@ public class Human {
         }
     }
 } /* Output:
-Caught Sneeze
-Caught Annoyance
-*///:~
+  Caught Sneeze
+  Caught Annoyance
+  */
+// :~

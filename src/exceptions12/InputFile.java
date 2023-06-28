@@ -1,4 +1,4 @@
-package exceptions12;//: exceptions12/InputFile.java
+package exceptions12; // : exceptions12/InputFile.java
 // Paying attention to exceptions12 in constructors.
 
 import java.io.*;
@@ -45,4 +45,4 @@ public class InputFile {
             throw new RuntimeException("in.close() failed");
         }
     }
-} ///:~
+} /// :~

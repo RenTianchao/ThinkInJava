@@ -1,4 +1,4 @@
-//: net/mindview/util/TaskItem.java
+// : net/mindview/util/TaskItem.java
 // A Future and the Callable that produced it.
 package net.mindview.util;
 
@@ -12,4 +12,4 @@ public class TaskItem<R, C extends Callable<R>> {
         this.future = future;
         this.task = task;
     }
-} ///:~
+} /// :~

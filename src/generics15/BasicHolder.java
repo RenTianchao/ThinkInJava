@@ -1,5 +1,5 @@
 package generics15;
-//: generics/BasicHolder.java
+// : generics/BasicHolder.java
 
 public class BasicHolder<T> {
     T element;
@@ -15,4 +15,4 @@ public class BasicHolder<T> {
     void f() {
         System.out.println(element.getClass().getSimpleName());
     }
-} ///:~
+} /// :~

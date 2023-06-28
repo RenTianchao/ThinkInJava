@@ -1,4 +1,4 @@
-//: typeinfo/packageaccess/HiddenC.java
+// : typeinfo/packageaccess/HiddenC.java
 package typeinfo14.packageaccess;
 
 import typeinfo14.interfacea.*;
@@ -31,4 +31,4 @@ public class HiddenC {
     public static A makeA() {
         return new C();
     }
-} ///:~
+} /// :~

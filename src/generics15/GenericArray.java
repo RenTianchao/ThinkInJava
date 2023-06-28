@@ -1,5 +1,5 @@
 package generics15;
-//: generics/GenericArray.java
+// : generics/GenericArray.java
 
 public class GenericArray<T> {
     private T[] array;
@@ -23,11 +23,10 @@ public class GenericArray<T> {
     }
 
     public static void main(String[] args) {
-        GenericArray<Integer> gai =
-                new GenericArray<Integer>(10);
+        GenericArray<Integer> gai = new GenericArray<Integer>(10);
         // This causes a ClassCastException:
-        //! Integer[] ia = gai.rep();
+        // ! Integer[] ia = gai.rep();
         // This is OK:
         Object[] oa = gai.rep();
     }
-} ///:~
+} /// :~

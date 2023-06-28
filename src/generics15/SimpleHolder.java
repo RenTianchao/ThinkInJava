@@ -1,5 +1,5 @@
 package generics15;
-//: generics/SimpleHolder.java
+// : generics/SimpleHolder.java
 
 public class SimpleHolder {
     private Object obj;
@@ -17,4 +17,4 @@ public class SimpleHolder {
         holder.set("Item");
         String s = (String) holder.get();
     }
-} ///:~
+} /// :~

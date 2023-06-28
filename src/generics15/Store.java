@@ -1,4 +1,4 @@
-package generics15;//: generics/Store.java
+package generics15; // : generics/Store.java
 // Building up a complex model using generic containers17.
 
 import java.util.*;
@@ -30,7 +30,9 @@ class Product {
                 private Random rand = new Random(47);
 
                 public Product next() {
-                    return new Product(rand.nextInt(1000), "Test",
+                    return new Product(
+                            rand.nextInt(1000),
+                            "Test",
                             Math.round(rand.nextDouble() * 1000.0) + 0.99);
                 }
             };
@@ -44,25 +46,20 @@ class Shelf extends ArrayList<Product> {
 
 class Aisle extends ArrayList<Shelf> {
     public Aisle(int nShelves, int nProducts) {
-        for (int i = 0; i < nShelves; i++)
-            add(new Shelf(nProducts));
+        for (int i = 0; i < nShelves; i++) add(new Shelf(nProducts));
     }
 }
 
-class CheckoutStand {
-}
+class CheckoutStand {}
 
-class Office {
-}
+class Office {}
 
 public class Store extends ArrayList<Aisle> {
-    private ArrayList<CheckoutStand> checkouts =
-            new ArrayList<CheckoutStand>();
+    private ArrayList<CheckoutStand> checkouts = new ArrayList<CheckoutStand>();
     private Office office = new Office();
 
     public Store(int nAisles, int nShelves, int nProducts) {
-        for (int i = 0; i < nAisles; i++)
-            add(new Aisle(nShelves, nProducts));
+        for (int i = 0; i < nAisles; i++) add(new Aisle(nShelves, nProducts));
     }
 
     public String toString() {
@@ -80,13 +77,14 @@ public class Store extends ArrayList<Aisle> {
         System.out.println(new Store(14, 5, 10));
     }
 } /* Output:
-258: Test, price: $400.99
-861: Test, price: $160.99
-868: Test, price: $417.99
-207: Test, price: $268.99
-551: Test, price: $114.99
-278: Test, price: $804.99
-520: Test, price: $554.99
-140: Test, price: $530.99
-...
-*///:~
+  258: Test, price: $400.99
+  861: Test, price: $160.99
+  868: Test, price: $417.99
+  207: Test, price: $268.99
+  551: Test, price: $114.99
+  278: Test, price: $804.99
+  520: Test, price: $554.99
+  140: Test, price: $530.99
+  ...
+  */
+// :~

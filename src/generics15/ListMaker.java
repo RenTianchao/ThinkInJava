@@ -1,5 +1,5 @@
 package generics15;
-//: generics/ListMaker.java
+// : generics/ListMaker.java
 
 import java.util.*;
 
@@ -12,4 +12,4 @@ public class ListMaker<T> {
         ListMaker<String> stringMaker = new ListMaker<String>();
         List<String> stringList = stringMaker.create();
     }
-} ///:~
+} /// :~

@@ -1,5 +1,5 @@
 package generics15;
-//: generics/PlainGenericInheritance.java
+// : generics/PlainGenericInheritance.java
 
 class GenericSetter<T> { // Not self-bounded
     void set(T arg) {
@@ -22,6 +22,7 @@ public class PlainGenericInheritance {
         dgs.set(base); // Compiles: overloaded, not overridden!
     }
 } /* Output:
-DerivedGS.set(Derived)
-GenericSetter.set(Base)
-*///:~
+  DerivedGS.set(Derived)
+  GenericSetter.set(Base)
+  */
+// :~

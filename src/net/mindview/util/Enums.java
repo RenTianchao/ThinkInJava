@@ -1,4 +1,4 @@
-//: net/mindview/util/Enums.java
+// : net/mindview/util/Enums.java
 package net.mindview.util;
 
 import java.util.*;
@@ -13,4 +13,4 @@ public class Enums {
     public static <T> T random(T[] values) {
         return values[rand.nextInt(values.length)];
     }
-} ///:~
+} /// :~

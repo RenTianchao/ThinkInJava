@@ -1,4 +1,4 @@
-package reusing7;//: reusing/FinalData.java
+package reusing7; // : reusing/FinalData.java
 // The effect of final on fields.
 
 import java.util.*;
@@ -41,14 +41,13 @@ public class FinalData {
 
     public static void main(String[] args) {
         FinalData fd1 = new FinalData("fd1");
-        //! fd1.valueOne++; // Error: can't change value
+        // ! fd1.valueOne++; // Error: can't change value
         fd1.v2.i++; // Object isn't constant!
         fd1.v1 = new Value(9); // OK -- not final
-        for (int i = 0; i < fd1.a.length; i++)
-            fd1.a[i]++; // Object isn't constant!
-        //! fd1.v2 = new Value(0); // Error: Can't
-        //! fd1.VAL_3 = new Value(1); // change reference
-        //! fd1.a = new int[3];
+        for (int i = 0; i < fd1.a.length; i++) fd1.a[i]++; // Object isn't constant!
+        // ! fd1.v2 = new Value(0); // Error: Can't
+        // ! fd1.VAL_3 = new Value(1); // change reference
+        // ! fd1.a = new int[3];
         print(fd1);
         print("Creating new FinalData");
         FinalData fd2 = new FinalData("fd2");
@@ -56,8 +55,9 @@ public class FinalData {
         print(fd2);
     }
 } /* Output:
-fd1: i4 = 15, INT_5 = 18
-Creating new FinalData
-fd1: i4 = 15, INT_5 = 18
-fd2: i4 = 13, INT_5 = 18
-*///:~
+  fd1: i4 = 15, INT_5 = 18
+  Creating new FinalData
+  fd1: i4 = 15, INT_5 = 18
+  fd2: i4 = 13, INT_5 = 18
+  */
+// :~

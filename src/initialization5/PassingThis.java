@@ -1,5 +1,5 @@
 package initialization5;
-//: initialization/PassingThis.java
+// : initialization/PassingThis.java
 
 class Person {
     public void eat(Apple apple) {
@@ -26,5 +26,6 @@ public class PassingThis {
         new Person().eat(new Apple());
     }
 } /* Output:
-Yummy
-*///:~
+  Yummy
+  */
+// :~

@@ -1,4 +1,4 @@
-package strings13;//: strings/Immutable.java
+package strings13; // : strings/Immutable.java
 
 import static net.mindview.util.Print.*;
 
@@ -15,7 +15,8 @@ public class Immutable {
         print(q); // howdy
     }
 } /* Output:
-howdy
-HOWDY
-howdy
-*///:~
+  howdy
+  HOWDY
+  howdy
+  */
+// :~

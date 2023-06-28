@@ -1,4 +1,4 @@
-package exceptions12;//: exceptions12/CleanupIdiom.java
+package exceptions12; // : exceptions12/CleanupIdiom.java
 // Each disposable object must be followed by a try-finally
 
 class NeedsCleanup { // Construction can't fail
@@ -10,13 +10,11 @@ class NeedsCleanup { // Construction can't fail
     }
 }
 
-class ConstructionException extends Exception {
-}
+class ConstructionException extends Exception {}
 
 class NeedsCleanup2 extends NeedsCleanup {
     // Construction can fail:
-    public NeedsCleanup2() throws ConstructionException {
-    }
+    public NeedsCleanup2() throws ConstructionException {}
 }
 
 public class CleanupIdiom {
@@ -61,9 +59,10 @@ public class CleanupIdiom {
         }
     }
 } /* Output:
-NeedsCleanup 1 disposed
-NeedsCleanup 3 disposed
-NeedsCleanup 2 disposed
-NeedsCleanup 5 disposed
-NeedsCleanup 4 disposed
-*///:~
+  NeedsCleanup 1 disposed
+  NeedsCleanup 3 disposed
+  NeedsCleanup 2 disposed
+  NeedsCleanup 5 disposed
+  NeedsCleanup 4 disposed
+  */
+// :~

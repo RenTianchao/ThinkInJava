@@ -1,4 +1,4 @@
-package typeinfo14;//: typeinfo/SelectingMethods.java
+package typeinfo14; // : typeinfo/SelectingMethods.java
 // Looking for particular methods in a dynamic proxy.
 
 import java.lang.reflect.*;
@@ -12,11 +12,8 @@ class MethodSelector implements InvocationHandler {
         this.proxied = proxied;
     }
 
-    public Object
-    invoke(Object proxy, Method method, Object[] args)
-            throws Throwable {
-        if (method.getName().equals("interesting"))
-            print("Proxy detected the interesting method");
+    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+        if (method.getName().equals("interesting")) print("Proxy detected the interesting method");
         return method.invoke(proxied, args);
     }
 }
@@ -51,19 +48,22 @@ class Implementation implements SomeMethods {
 
 class SelectingMethods {
     public static void main(String[] args) {
-        SomeMethods proxy = (SomeMethods) Proxy.newProxyInstance(
-                SomeMethods.class.getClassLoader(),
-                new Class[]{SomeMethods.class},
-                new MethodSelector(new Implementation()));
+        SomeMethods proxy =
+                (SomeMethods)
+                        Proxy.newProxyInstance(
+                                SomeMethods.class.getClassLoader(),
+                                new Class[] {SomeMethods.class},
+                                new MethodSelector(new Implementation()));
         proxy.boring1();
         proxy.boring2();
         proxy.interesting("bonobo");
         proxy.boring3();
     }
 } /* Output:
-boring1
-boring2
-Proxy detected the interesting method
-interesting bonobo
-boring3
-*///:~
+  boring1
+  boring2
+  Proxy detected the interesting method
+  interesting bonobo
+  boring3
+  */
+// :~

@@ -1,4 +1,4 @@
-package holding11;//: holding/LinkedListFeatures.java
+package holding11; // : holding/LinkedListFeatures.java
 
 import typeinfo14.pets.*;
 import typeinfo14.pets.Hamster;
@@ -12,8 +12,7 @@ import static net.mindview.util.Print.*;
 
 public class LinkedListFeatures {
     public static void main(String[] args) {
-        LinkedList<Pet> pets =
-                new LinkedList<Pet>(Pets.arrayList(5));
+        LinkedList<Pet> pets = new LinkedList<Pet>(Pets.arrayList(5));
         print(pets);
         // Identical:
         print("pets.getFirst(): " + pets.getFirst());
@@ -37,17 +36,18 @@ public class LinkedListFeatures {
         print("pets.removeLast(): " + pets.removeLast());
     }
 } /* Output:
-[Rat, Manx, Cymric, Mutt, Pug]
-pets.getFirst(): Rat
-pets.element(): Rat
-pets.peek(): Rat
-pets.remove(): Rat
-pets.removeFirst(): Manx
-pets.poll(): Cymric
-[Mutt, Pug]
-After addFirst(): [Rat, Mutt, Pug]
-After offer(): [Rat, Mutt, Pug, Cymric]
-After add(): [Rat, Mutt, Pug, Cymric, Pug]
-After addLast(): [Rat, Mutt, Pug, Cymric, Pug, Hamster]
-pets.removeLast(): Hamster
-*///:~
+  [Rat, Manx, Cymric, Mutt, Pug]
+  pets.getFirst(): Rat
+  pets.element(): Rat
+  pets.peek(): Rat
+  pets.remove(): Rat
+  pets.removeFirst(): Manx
+  pets.poll(): Cymric
+  [Mutt, Pug]
+  After addFirst(): [Rat, Mutt, Pug]
+  After offer(): [Rat, Mutt, Pug, Cymric]
+  After add(): [Rat, Mutt, Pug, Cymric, Pug]
+  After addLast(): [Rat, Mutt, Pug, Cymric, Pug, Hamster]
+  pets.removeLast(): Hamster
+  */
+// :~

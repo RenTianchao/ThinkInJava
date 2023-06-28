@@ -1,9 +1,12 @@
-//: interfaces/filters/Filter.java
+// : interfaces/filters/Filter.java
 package interfaces9.filters;
 
 public class Filter {
-  public String name() {
-    return getClass().getSimpleName();
-  }
-  public Waveform process(Waveform input) { return input; }
-} ///:~
+    public String name() {
+        return getClass().getSimpleName();
+    }
+
+    public Waveform process(Waveform input) {
+        return input;
+    }
+} /// :~

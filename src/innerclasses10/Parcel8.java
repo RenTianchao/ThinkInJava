@@ -1,16 +1,15 @@
 package innerclasses10;
 
-//: innerclasses10/Parcel8.java
+// : innerclasses10/Parcel8.java
 // Calling the base-class constructor.
 
 public class Parcel8 {
     public Wrapping wrapping(int x) {
         // Base constructor call:
         return new Wrapping(x) { // Pass constructor argument.
-//            public int value() {
-//                return super.value() * 47;
-//            }
-
+            //            public int value() {
+            //                return super.value() * 47;
+            //            }
 
             @Override
             public int value() {
@@ -24,5 +23,4 @@ public class Parcel8 {
         Wrapping w = p.wrapping(10);
         System.out.println(w.value());
     }
-} ///:~
-
+} /// :~

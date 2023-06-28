@@ -1,8 +1,11 @@
-//: interfaces/filters/Waveform.java
+// : interfaces/filters/Waveform.java
 package interfaces9.filters;
 
 public class Waveform {
-  private static long counter;
-  private final long id = counter++;
-  public String toString() { return "Waveform " + id; }
-} ///:~
+    private static long counter;
+    private final long id = counter++;
+
+    public String toString() {
+        return "Waveform " + id;
+    }
+} /// :~

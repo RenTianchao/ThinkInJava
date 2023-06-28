@@ -1,4 +1,4 @@
-package typeinfo14;//: typeinfo/GenericClassReferences.java
+package typeinfo14; // : typeinfo/GenericClassReferences.java
 
 public class GenericClassReferences {
     public static void main(String[] args) {
@@ -8,4 +8,4 @@ public class GenericClassReferences {
         intClass = double.class;
         // genericIntClass = double.class; // Illegal
     }
-} ///:~
+} /// :~

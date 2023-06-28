@@ -1,4 +1,4 @@
-package initialization5;//: initialization/StaticInitialization.java
+package initialization5; // : initialization/StaticInitialization.java
 // Specifying initial values in a class definition.
 
 import static net.mindview.util.Print.*;
@@ -57,23 +57,24 @@ public class StaticInitialization {
     static Table table = new Table();
     static Cupboard cupboard = new Cupboard();
 } /* Output:
-Bowl(1)
-Bowl(2)
-Table()
-f1(1)
-Bowl(4)
-Bowl(5)
-Bowl(3)
-Cupboard()
-f1(2)
-Creating new Cupboard() in main
-Bowl(3)
-Cupboard()
-f1(2)
-Creating new Cupboard() in main
-Bowl(3)
-Cupboard()
-f1(2)
-f2(1)
-f3(1)
-*///:~
+  Bowl(1)
+  Bowl(2)
+  Table()
+  f1(1)
+  Bowl(4)
+  Bowl(5)
+  Bowl(3)
+  Cupboard()
+  f1(2)
+  Creating new Cupboard() in main
+  Bowl(3)
+  Cupboard()
+  f1(2)
+  Creating new Cupboard() in main
+  Bowl(3)
+  Cupboard()
+  f1(2)
+  f2(1)
+  f3(1)
+  */
+// :~

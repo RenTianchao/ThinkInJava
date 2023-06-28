@@ -1,4 +1,4 @@
-package exceptions12;//: exceptions12/ExtraFeatures.java
+package exceptions12; // : exceptions12/ExtraFeatures.java
 // Further embellishment of exception classes.
 
 import static net.mindview.util.Print.*;
@@ -6,8 +6,7 @@ import static net.mindview.util.Print.*;
 class MyException2 extends Exception {
     private int x;
 
-    public MyException2() {
-    }
+    public MyException2() {}
 
     public MyException2(String msg) {
         super(msg);
@@ -62,17 +61,18 @@ public class ExtraFeatures {
         }
     }
 } /* Output:
-Throwing MyException2 from f()
-MyException2: Detail Message: 0 null
-        at ExtraFeatures.f(ExtraFeatures.java:22)
-        at ExtraFeatures.main(ExtraFeatures.java:34)
-Throwing MyException2 from g()
-MyException2: Detail Message: 0 Originated in g()
-        at ExtraFeatures.g(ExtraFeatures.java:26)
-        at ExtraFeatures.main(ExtraFeatures.java:39)
-Throwing MyException2 from h()
-MyException2: Detail Message: 47 Originated in h()
-        at ExtraFeatures.h(ExtraFeatures.java:30)
-        at ExtraFeatures.main(ExtraFeatures.java:44)
-e.val() = 47
-*///:~
+  Throwing MyException2 from f()
+  MyException2: Detail Message: 0 null
+          at ExtraFeatures.f(ExtraFeatures.java:22)
+          at ExtraFeatures.main(ExtraFeatures.java:34)
+  Throwing MyException2 from g()
+  MyException2: Detail Message: 0 Originated in g()
+          at ExtraFeatures.g(ExtraFeatures.java:26)
+          at ExtraFeatures.main(ExtraFeatures.java:39)
+  Throwing MyException2 from h()
+  MyException2: Detail Message: 47 Originated in h()
+          at ExtraFeatures.h(ExtraFeatures.java:30)
+          at ExtraFeatures.main(ExtraFeatures.java:44)
+  e.val() = 47
+  */
+// :~

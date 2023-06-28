@@ -1,10 +1,9 @@
-package generics15;//: generics/EpicBattle.java
+package generics15; // : generics/EpicBattle.java
 // Demonstrating bounds in Java generics.
 
 import java.util.*;
 
-interface SuperPower {
-}
+interface SuperPower {}
 
 interface XRayVision extends SuperPower {
     void seeThroughWalls();
@@ -30,8 +29,7 @@ class SuperHero<POWER extends SuperPower> {
     }
 }
 
-class SuperSleuth<POWER extends XRayVision>
-        extends SuperHero<POWER> {
+class SuperSleuth<POWER extends XRayVision> extends SuperHero<POWER> {
     SuperSleuth(POWER power) {
         super(power);
     }
@@ -41,8 +39,7 @@ class SuperSleuth<POWER extends XRayVision>
     }
 }
 
-class CanineHero<POWER extends SuperHearing & SuperSmell>
-        extends SuperHero<POWER> {
+class CanineHero<POWER extends SuperHearing & SuperSmell> extends SuperHero<POWER> {
     CanineHero(POWER power) {
         super(power);
     }
@@ -57,11 +54,9 @@ class CanineHero<POWER extends SuperHearing & SuperSmell>
 }
 
 class SuperHearSmell implements SuperHearing, SuperSmell {
-    public void hearSubtleNoises() {
-    }
+    public void hearSubtleNoises() {}
 
-    public void trackBySmell() {
-    }
+    public void trackBySmell() {}
 }
 
 class DogBoy extends CanineHero<SuperHearSmell> {
@@ -72,13 +67,11 @@ class DogBoy extends CanineHero<SuperHearSmell> {
 
 public class EpicBattle {
     // Bounds in generic methods:
-    static <POWER extends SuperHearing>
-    void useSuperHearing(SuperHero<POWER> hero) {
+    static <POWER extends SuperHearing> void useSuperHearing(SuperHero<POWER> hero) {
         hero.getPower().hearSubtleNoises();
     }
 
-    static <POWER extends SuperHearing & SuperSmell>
-    void superFind(SuperHero<POWER> hero) {
+    static <POWER extends SuperHearing & SuperSmell> void superFind(SuperHero<POWER> hero) {
         hero.getPower().hearSubtleNoises();
         hero.getPower().trackBySmell();
     }
@@ -92,4 +85,4 @@ public class EpicBattle {
         // But you can't do this:
         // List<? extends SuperHearing & SuperSmell> dogBoys;
     }
-} ///:~
+} /// :~

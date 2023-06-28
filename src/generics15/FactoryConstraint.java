@@ -1,5 +1,5 @@
 package generics15;
-//: generics/FactoryConstraint.java
+// : generics/FactoryConstraint.java
 
 interface FactoryI<T> {
     T create();
@@ -33,4 +33,4 @@ public class FactoryConstraint {
         new Foo2<Integer>(new IntegerFactory());
         new Foo2<Widget>(new Widget.Factory());
     }
-} ///:~
+} /// :~

@@ -1,5 +1,5 @@
 package generics15;
-//: generics/CreatorGeneric.java
+// : generics/CreatorGeneric.java
 
 abstract class GenericWithCreate<T> {
     final T element;
@@ -11,8 +11,7 @@ abstract class GenericWithCreate<T> {
     abstract T create();
 }
 
-class X {
-}
+class X {}
 
 class Creator extends GenericWithCreate<X> {
     X create() {
@@ -30,5 +29,6 @@ public class CreatorGeneric {
         c.f();
     }
 } /* Output:
-X
-*///:~
+  X
+  */
+// :~

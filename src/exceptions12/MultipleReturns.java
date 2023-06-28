@@ -1,4 +1,4 @@
-package exceptions12;//: exceptions12/MultipleReturns.java
+package exceptions12; // : exceptions12/MultipleReturns.java
 
 import static net.mindview.util.Print.*;
 
@@ -20,26 +20,26 @@ public class MultipleReturns {
     }
 
     public static void main(String[] args) {
-        for (int i = 1; i <= 4; i++)
-            f(i);
+        for (int i = 1; i <= 4; i++) f(i);
     }
 } /* Output:
-Initialization that requires cleanup
-Point 1
-Performing cleanup
-Initialization that requires cleanup
-Point 1
-Point 2
-Performing cleanup
-Initialization that requires cleanup
-Point 1
-Point 2
-Point 3
-Performing cleanup
-Initialization that requires cleanup
-Point 1
-Point 2
-Point 3
-End
-Performing cleanup
-*///:~
+  Initialization that requires cleanup
+  Point 1
+  Performing cleanup
+  Initialization that requires cleanup
+  Point 1
+  Point 2
+  Performing cleanup
+  Initialization that requires cleanup
+  Point 1
+  Point 2
+  Point 3
+  Performing cleanup
+  Initialization that requires cleanup
+  Point 1
+  Point 2
+  Point 3
+  End
+  Performing cleanup
+  */
+// :~

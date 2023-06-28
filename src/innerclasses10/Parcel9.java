@@ -1,6 +1,6 @@
 package innerclasses10;
 
-//: innerclasses10/Parcel9.java
+// : innerclasses10/Parcel9.java
 // An anonymous inner class that performs
 // initialization. A briefer version of Parcel5.java.
 
@@ -21,5 +21,4 @@ public class Parcel9 {
         Parcel9 p = new Parcel9();
         Destination d = p.destination("Tasmania");
     }
-} ///:~
-
+} /// :~

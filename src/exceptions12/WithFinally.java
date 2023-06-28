@@ -1,4 +1,4 @@
-package exceptions12;//: exceptions12/WithFinally.java
+package exceptions12; // : exceptions12/WithFinally.java
 // Finally Guarantees cleanup.
 
 public class WithFinally {
@@ -18,6 +18,7 @@ public class WithFinally {
         }
     }
 } /* Output:
-on
-off
-*///:~
+  on
+  off
+  */
+// :~

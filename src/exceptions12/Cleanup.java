@@ -1,4 +1,4 @@
-package exceptions12;//: exceptions12/Cleanup.java
+package exceptions12; // : exceptions12/Cleanup.java
 // Guaranteeing proper cleanup of a resource.
 
 public class Cleanup {
@@ -8,8 +8,7 @@ public class Cleanup {
             try {
                 String s;
                 int i = 1;
-                while ((s = in.getLine()) != null)
-                    ; // Perform line-by-line processing here...
+                while ((s = in.getLine()) != null) ; // Perform line-by-line processing here...
             } catch (Exception e) {
                 System.out.println("Caught Exception in main");
                 e.printStackTrace(System.out);
@@ -21,5 +20,6 @@ public class Cleanup {
         }
     }
 } /* Output:
-dispose() successful
-*///:~
+  dispose() successful
+  */
+// :~

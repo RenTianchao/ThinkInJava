@@ -1,4 +1,4 @@
-package reusing7;//: reusing/PlaceSetting.java
+package reusing7; // : reusing/PlaceSetting.java
 // Combining composition & inheritance.
 
 import static net.mindview.util.Print.*;
@@ -69,14 +69,15 @@ public class PlaceSetting extends Custom {
         PlaceSetting x = new PlaceSetting(9);
     }
 } /* Output:
-Custom constructor
-Utensil constructor
-Spoon constructor
-Utensil constructor
-Fork constructor
-Utensil constructor
-Knife constructor
-Plate constructor
-DinnerPlate constructor
-PlaceSetting constructor
-*///:~
+  Custom constructor
+  Utensil constructor
+  Spoon constructor
+  Utensil constructor
+  Fork constructor
+  Utensil constructor
+  Knife constructor
+  Plate constructor
+  DinnerPlate constructor
+  PlaceSetting constructor
+  */
+// :~

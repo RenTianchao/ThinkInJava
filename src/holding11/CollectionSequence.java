@@ -1,11 +1,10 @@
-package holding11;//: holding/CollectionSequence.java
+package holding11; // : holding/CollectionSequence.java
 
 import typeinfo14.pets.*;
 
 import java.util.*;
 
-public class CollectionSequence
-        extends AbstractCollection<Pet> {
+public class CollectionSequence extends AbstractCollection<Pet> {
     private Pet[] pets = Pets.createArray(8);
 
     public int size() {
@@ -36,6 +35,7 @@ public class CollectionSequence
         InterfaceVsIterator.display(c.iterator());
     }
 } /* Output:
-0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx
-0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx
-*///:~
+  0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx
+  0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx
+  */
+// :~

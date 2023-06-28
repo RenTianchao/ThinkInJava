@@ -1,5 +1,5 @@
 package generics15;
-//: generics/GenericHolder.java
+// : generics/GenericHolder.java
 
 public class GenericHolder<T> {
     private T obj;
@@ -13,9 +13,8 @@ public class GenericHolder<T> {
     }
 
     public static void main(String[] args) {
-        GenericHolder<String> holder =
-                new GenericHolder<String>();
+        GenericHolder<String> holder = new GenericHolder<String>();
         holder.set("Item");
         String s = holder.get();
     }
-} ///:~
+} /// :~

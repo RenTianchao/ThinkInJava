@@ -1,4 +1,4 @@
-package strings13;//: strings/Concatenation.java
+package strings13; // : strings/Concatenation.java
 
 public class Concatenation {
     public static void main(String[] args) {
@@ -7,5 +7,6 @@ public class Concatenation {
         System.out.println(s);
     }
 } /* Output:
-abcmangodef47
-*///:~
+  abcmangodef47
+  */
+// :~

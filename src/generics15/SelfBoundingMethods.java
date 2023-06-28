@@ -1,5 +1,5 @@
 package generics15;
-//: generics/SelfBoundingMethods.java
+// : generics/SelfBoundingMethods.java
 
 public class SelfBoundingMethods {
     static <T extends SelfBounded<T>> T f(T arg) {
@@ -9,4 +9,4 @@ public class SelfBoundingMethods {
     public static void main(String[] args) {
         A a = f(new A());
     }
-} ///:~
+} /// :~

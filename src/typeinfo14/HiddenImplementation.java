@@ -1,5 +1,5 @@
 package typeinfo14;
-//: typeinfo/HiddenImplementation.java
+// : typeinfo/HiddenImplementation.java
 // Sneaking around package access.
 
 import typeinfo14.interfacea.*;
@@ -13,10 +13,10 @@ public class HiddenImplementation {
         a.f();
         System.out.println(a.getClass().getName());
         // Compile error: cannot find symbol 'C':
-    /* if(a instanceof C) {
-      C c = (C)a;
-      c.g();
-    } */
+        /* if(a instanceof C) {
+          C c = (C)a;
+          c.g();
+        } */
         // Oops! Reflection still allows us to call g():
         callHiddenMethod(a, "g");
         // And even methods that are less accessible!
@@ -25,17 +25,17 @@ public class HiddenImplementation {
         callHiddenMethod(a, "w");
     }
 
-    static void callHiddenMethod(Object a, String methodName)
-            throws Exception {
+    static void callHiddenMethod(Object a, String methodName) throws Exception {
         Method g = a.getClass().getDeclaredMethod(methodName);
         g.setAccessible(true);
         g.invoke(a);
     }
 } /* Output:
-public C.f()
-typeinfo.packageaccess.C
-public C.g()
-package C.u()
-protected C.v()
-private C.w()
-*///:~
+  public C.f()
+  typeinfo.packageaccess.C
+  public C.g()
+  package C.u()
+  protected C.v()
+  private C.w()
+  */
+// :~

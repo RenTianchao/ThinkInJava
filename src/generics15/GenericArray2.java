@@ -1,5 +1,5 @@
 package generics15;
-//: generics/GenericArray2.java
+// : generics/GenericArray2.java
 
 public class GenericArray2<T> {
     private Object[] array;
@@ -23,12 +23,9 @@ public class GenericArray2<T> {
     }
 
     public static void main(String[] args) {
-        GenericArray2<Integer> gai =
-                new GenericArray2<Integer>(10);
-        for (int i = 0; i < 10; i++)
-            gai.put(i, i);
-        for (int i = 0; i < 10; i++)
-            System.out.print(gai.get(i) + " ");
+        GenericArray2<Integer> gai = new GenericArray2<Integer>(10);
+        for (int i = 0; i < 10; i++) gai.put(i, i);
+        for (int i = 0; i < 10; i++) System.out.print(gai.get(i) + " ");
         System.out.println();
         try {
             Integer[] ia = gai.rep();
@@ -37,6 +34,7 @@ public class GenericArray2<T> {
         }
     }
 } /* Output: (Sample)
-0 1 2 3 4 5 6 7 8 9
-java.lang.ClassCastException: [Ljava.lang.Object; cannot be cast to [Ljava.lang.Integer;
-*///:~
+  0 1 2 3 4 5 6 7 8 9
+  java.lang.ClassCastException: [Ljava.lang.Object; cannot be cast to [Ljava.lang.Integer;
+  */
+// :~

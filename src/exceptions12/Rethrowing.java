@@ -1,4 +1,4 @@
-package exceptions12;//: exceptions12/Rethrowing.java
+package exceptions12; // : exceptions12/Rethrowing.java
 // Demonstrating fillInStackTrace()
 
 public class Rethrowing {
@@ -42,25 +42,26 @@ public class Rethrowing {
         }
     }
 } /* Output:
-originating the exception in f()
-Inside g(),e.printStackTrace()
-java.lang.Exception: thrown from f()
-        at Rethrowing.f(Rethrowing.java:7)
-        at Rethrowing.g(Rethrowing.java:11)
-        at Rethrowing.main(Rethrowing.java:29)
-main: printStackTrace()
-java.lang.Exception: thrown from f()
-        at Rethrowing.f(Rethrowing.java:7)
-        at Rethrowing.g(Rethrowing.java:11)
-        at Rethrowing.main(Rethrowing.java:29)
-originating the exception in f()
-Inside h(),e.printStackTrace()
-java.lang.Exception: thrown from f()
-        at Rethrowing.f(Rethrowing.java:7)
-        at Rethrowing.h(Rethrowing.java:20)
-        at Rethrowing.main(Rethrowing.java:35)
-main: printStackTrace()
-java.lang.Exception: thrown from f()
-        at Rethrowing.h(Rethrowing.java:24)
-        at Rethrowing.main(Rethrowing.java:35)
-*///:~
+  originating the exception in f()
+  Inside g(),e.printStackTrace()
+  java.lang.Exception: thrown from f()
+          at Rethrowing.f(Rethrowing.java:7)
+          at Rethrowing.g(Rethrowing.java:11)
+          at Rethrowing.main(Rethrowing.java:29)
+  main: printStackTrace()
+  java.lang.Exception: thrown from f()
+          at Rethrowing.f(Rethrowing.java:7)
+          at Rethrowing.g(Rethrowing.java:11)
+          at Rethrowing.main(Rethrowing.java:29)
+  originating the exception in f()
+  Inside h(),e.printStackTrace()
+  java.lang.Exception: thrown from f()
+          at Rethrowing.f(Rethrowing.java:7)
+          at Rethrowing.h(Rethrowing.java:20)
+          at Rethrowing.main(Rethrowing.java:35)
+  main: printStackTrace()
+  java.lang.Exception: thrown from f()
+          at Rethrowing.h(Rethrowing.java:24)
+          at Rethrowing.main(Rethrowing.java:35)
+  */
+// :~

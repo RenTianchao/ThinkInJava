@@ -1,4 +1,4 @@
-package exceptions12;//: exceptions12/Switch.java
+package exceptions12; // : exceptions12/Switch.java
 
 import static net.mindview.util.Print.*;
 
@@ -22,4 +22,4 @@ public class Switch {
     public String toString() {
         return state ? "on" : "off";
     }
-} ///:~
+} /// :~

@@ -1,5 +1,5 @@
 package initialization5;
-//: initialization/Flower.java
+// : initialization/Flower.java
 // Calling constructors with "this"
 
 import static net.mindview.util.Print.*;
@@ -10,8 +10,7 @@ public class Flower {
 
     Flower(int petals) {
         petalCount = petals;
-        print("Constructor w/ int arg only, petalCount= "
-                + petalCount);
+        print("Constructor w/ int arg only, petalCount= " + petalCount);
     }
 
     Flower(String ss) {
@@ -21,7 +20,7 @@ public class Flower {
 
     Flower(String s, int petals) {
         this(petals);
-//!    this(s); // Can't call two!
+        // !    this(s); // Can't call two!
         this.s = s; // Another use of "this"
         print("String & int args");
     }
@@ -32,7 +31,7 @@ public class Flower {
     }
 
     void printPetalCount() {
-//! this(11); // Not inside non-constructor!
+        // ! this(11); // Not inside non-constructor!
         print("petalCount = " + petalCount + " s = " + s);
     }
 
@@ -41,8 +40,9 @@ public class Flower {
         x.printPetalCount();
     }
 } /* Output:
-Constructor w/ int arg only, petalCount= 47
-String & int args
-default constructor (no args)
-petalCount = 47 s = hi
-*///:~
+  Constructor w/ int arg only, petalCount= 47
+  String & int args
+  default constructor (no args)
+  petalCount = 47 s = hi
+  */
+// :~

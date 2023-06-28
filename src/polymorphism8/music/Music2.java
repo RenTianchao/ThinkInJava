@@ -1,4 +1,4 @@
-//: polymorphism/music/Music2.java
+// : polymorphism/music/Music2.java
 // Overloading instead of upcasting.
 package polymorphism8.music;
 
@@ -38,7 +38,8 @@ public class Music2 {
         tune(frenchHorn);
     }
 } /* Output:
-Wind.play() MIDDLE_C
-Stringed.play() MIDDLE_C
-Brass.play() MIDDLE_C
-*///:~
+  Wind.play() MIDDLE_C
+  Stringed.play() MIDDLE_C
+  Brass.play() MIDDLE_C
+  */
+// :~

@@ -1,5 +1,5 @@
 package initialization5;
-//: initialization/VarargType.java
+// : initialization/VarargType.java
 
 public class VarargType {
     static void f(Character... args) {
@@ -20,9 +20,10 @@ public class VarargType {
         System.out.println("int[]: " + new int[0].getClass());
     }
 } /* Output:
-class [Ljava.lang.Character; length 1
-class [Ljava.lang.Character; length 0
-class [I length 1
-class [I length 0
-int[]: class [I
-*///:~
+  class [Ljava.lang.Character; length 1
+  class [Ljava.lang.Character; length 0
+  class [I length 1
+  class [I length 0
+  int[]: class [I
+  */
+// :~

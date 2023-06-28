@@ -1,8 +1,8 @@
 package innerclasses10;
 
-//: innerclasses/Callbacks.java
+// : innerclasses/Callbacks.java
 // Using inner classes for callbacks
-//import static net.mindview.util.Print.*;
+// import static net.mindview.util.Print.*;
 
 interface Incrementable {
     void increment();
@@ -15,13 +15,13 @@ class Callee1 implements Incrementable {
     public void increment() {
         i++;
         System.out.println(i);
-//        print(i);
+        //        print(i);
     }
 }
 
 class MyIncrement {
     public void increment() {
-//        print("Other operation");
+        //        print("Other operation");
         System.out.println("Other operation");
     }
 
@@ -39,7 +39,7 @@ class Callee2 extends MyIncrement {
         super.increment();
         i++;
         System.out.println(i);
-//        print(i);
+        //        print(i);
     }
 
     private class Closure implements Incrementable {
@@ -80,13 +80,13 @@ public class Callbacks {
         caller2.go();
     }
 } /* Output:
-Other operation
-1
-1
-2
-Other operation
-2
-Other operation
-3
-*///:~
-
+  Other operation
+  1
+  1
+  2
+  Other operation
+  2
+  Other operation
+  3
+  */
+// :~

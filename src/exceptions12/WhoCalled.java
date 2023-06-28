@@ -1,4 +1,4 @@
-package exceptions12;//: exceptions12/WhoCalled.java
+package exceptions12; // : exceptions12/WhoCalled.java
 // Programmatic access to stack trace information.
 
 public class WhoCalled {
@@ -7,8 +7,7 @@ public class WhoCalled {
         try {
             throw new Exception();
         } catch (Exception e) {
-            for (StackTraceElement ste : e.getStackTrace())
-                System.out.println(ste.getMethodName());
+            for (StackTraceElement ste : e.getStackTrace()) System.out.println(ste.getMethodName());
         }
     }
 
@@ -28,15 +27,16 @@ public class WhoCalled {
         h();
     }
 } /* Output:
-f
-main
---------------------------------
-f
-g
-main
---------------------------------
-f
-g
-h
-main
-*///:~
+  f
+  main
+  --------------------------------
+  f
+  g
+  main
+  --------------------------------
+  f
+  g
+  h
+  main
+  */
+// :~

@@ -1,5 +1,5 @@
 package generics15;
-//: generics/DynamicProxyMixin.java
+// : generics/DynamicProxyMixin.java
 
 import java.lang.reflect.*;
 import java.util.*;
@@ -24,8 +24,7 @@ class MixinProxy implements InvocationHandler {
         }
     }
 
-    public Object invoke(Object proxy, Method method,
-                         Object[] args) throws Throwable {
+    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         String methodName = method.getName();
         Object delegate = delegatesByMethod.get(methodName);
         return method.invoke(delegate, args);
@@ -37,19 +36,18 @@ class MixinProxy implements InvocationHandler {
         for (int i = 0; i < pairs.length; i++) {
             interfaces[i] = (Class) pairs[i].second;
         }
-        ClassLoader cl =
-                pairs[0].first.getClass().getClassLoader();
-        return Proxy.newProxyInstance(
-                cl, interfaces, new MixinProxy(pairs));
+        ClassLoader cl = pairs[0].first.getClass().getClassLoader();
+        return Proxy.newProxyInstance(cl, interfaces, new MixinProxy(pairs));
     }
 }
 
 public class DynamicProxyMixin {
     public static void main(String[] args) {
-        Object mixin = MixinProxy.newInstance(
-                tuple(new BasicImp(), Basic.class),
-                tuple(new TimeStampedImp(), TimeStamped.class),
-                tuple(new SerialNumberedImp(), SerialNumbered.class));
+        Object mixin =
+                MixinProxy.newInstance(
+                        tuple(new BasicImp(), Basic.class),
+                        tuple(new TimeStampedImp(), TimeStamped.class),
+                        tuple(new SerialNumberedImp(), SerialNumbered.class));
         Basic b = (Basic) mixin;
         TimeStamped t = (TimeStamped) mixin;
         SerialNumbered s = (SerialNumbered) mixin;
@@ -59,7 +57,8 @@ public class DynamicProxyMixin {
         System.out.println(s.getSerialNumber());
     }
 } /* Output: (Sample)
-Hello
-1132519137015
-1
-*///:~
+  Hello
+  1132519137015
+  1
+  */
+// :~

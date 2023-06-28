@@ -1,5 +1,5 @@
 package generics15;
-//: generics/ErasedTypeEquivalence.java
+// : generics/ErasedTypeEquivalence.java
 
 import java.util.*;
 
@@ -10,5 +10,6 @@ public class ErasedTypeEquivalence {
         System.out.println(c1 == c2);
     }
 } /* Output:
-true
-*///:~
+  true
+  */
+// :~

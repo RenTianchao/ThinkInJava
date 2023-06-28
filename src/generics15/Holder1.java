@@ -1,7 +1,6 @@
-package generics15;//: generics/Holder1.java
+package generics15; // : generics/Holder1.java
 
-class Automobile {
-}
+class Automobile {}
 
 public class Holder1 {
     private Automobile a;
@@ -13,4 +12,4 @@ public class Holder1 {
     Automobile get() {
         return a;
     }
-} ///:~
+} /// :~

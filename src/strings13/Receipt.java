@@ -1,4 +1,4 @@
-package strings13;//: strings/Receipt.java
+package strings13; // : strings/Receipt.java
 
 import java.util.*;
 
@@ -19,8 +19,7 @@ public class Receipt {
     public void printTotal() {
         f.format("%-15s %5s %10.2f\n", "Tax", "", total * 0.06);
         f.format("%-15s %5s %10s\n", "", "", "-----");
-        f.format("%-15s %5s %10.2f\n", "Total", "",
-                total * 1.06);
+        f.format("%-15s %5s %10.2f\n", "Total", "", total * 1.06);
     }
 
     public static void main(String[] args) {
@@ -32,12 +31,13 @@ public class Receipt {
         receipt.printTotal();
     }
 } /* Output:
-Item              Qty      Price
-----              ---      -----
-Jack's Magic Be     4       4.25
-Princess Peas       3       5.10
-Three Bears Por     1      14.29
-Tax                         1.42
-                           -----
-Total                      25.06
-*///:~
+  Item              Qty      Price
+  ----              ---      -----
+  Jack's Magic Be     4       4.25
+  Princess Peas       3       5.10
+  Three Bears Por     1      14.29
+  Tax                         1.42
+                             -----
+  Total                      25.06
+  */
+// :~

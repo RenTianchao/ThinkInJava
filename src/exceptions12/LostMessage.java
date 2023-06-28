@@ -1,4 +1,4 @@
-package exceptions12;//: exceptions12/LostMessage.java
+package exceptions12; // : exceptions12/LostMessage.java
 // How an exception can be lost.
 
 class VeryImportantException extends Exception {
@@ -35,5 +35,6 @@ public class LostMessage {
         }
     }
 } /* Output:
-A trivial exception
-*///:~
+  A trivial exception
+  */
+// :~

@@ -1,4 +1,4 @@
-package generics15;//: generics/SimplerPets.java
+package generics15; // : generics/SimplerPets.java
 
 import typeinfo14.pets.*;
 
@@ -11,4 +11,4 @@ public class SimplerPets {
         Map<Person, List<? extends Pet>> petPeople = New.map();
         // Rest of the code is the same...
     }
-} ///:~
+} /// :~

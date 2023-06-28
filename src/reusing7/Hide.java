@@ -1,4 +1,4 @@
-package reusing7;//: reusing/Hide.java
+package reusing7; // : reusing/Hide.java
 // Overloading a base-class method name in a derived
 // class does not hide the base-class versions.
 
@@ -16,8 +16,7 @@ class Homer {
     }
 }
 
-class Milhouse {
-}
+class Milhouse {}
 
 class Bart extends Homer {
     void doh(Milhouse m) {
@@ -34,8 +33,9 @@ public class Hide {
         b.doh(new Milhouse());
     }
 } /* Output:
-doh(float)
-doh(char)
-doh(float)
-doh(Milhouse)
-*///:~
+  doh(float)
+  doh(char)
+  doh(float)
+  doh(Milhouse)
+  */
+// :~

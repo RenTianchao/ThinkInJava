@@ -1,4 +1,4 @@
-//: typeinfo/pets/Cymric.java
+// : typeinfo/pets/Cymric.java
 package typeinfo14.pets;
 
 public class Cymric extends Manx {
@@ -9,4 +9,4 @@ public class Cymric extends Manx {
     public Cymric() {
         super();
     }
-} ///:~
+} /// :~

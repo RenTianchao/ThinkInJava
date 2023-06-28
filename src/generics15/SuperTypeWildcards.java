@@ -1,5 +1,5 @@
 package generics15;
-//: generics/SuperTypeWildcards.java
+// : generics/SuperTypeWildcards.java
 
 import java.util.*;
 
@@ -9,4 +9,4 @@ public class SuperTypeWildcards {
         apples.add(new Jonathan());
         // apples.add(new Fruit()); // Error
     }
-} ///:~
+} /// :~

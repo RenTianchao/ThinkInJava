@@ -1,11 +1,10 @@
 package generics15;
-//: generics/Holder.java
+// : generics/Holder.java
 
 public class Holder<T> {
     private T value;
 
-    public Holder() {
-    }
+    public Holder() {}
 
     public Holder(T val) {
         value = val;
@@ -41,6 +40,7 @@ public class Holder<T> {
         System.out.println(fruit.equals(d)); // OK
     }
 } /* Output: (Sample)
-java.lang.ClassCastException: Apple cannot be cast to Orange
-true
-*///:~
+  java.lang.ClassCastException: Apple cannot be cast to Orange
+  true
+  */
+// :~

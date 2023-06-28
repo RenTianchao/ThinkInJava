@@ -1,6 +1,6 @@
 package innerclasses10;
 
-//: innerclasses10/DotThis.java
+// : innerclasses10/DotThis.java
 // Qualifying access to the outer-class object.
 
 public class DotThis {
@@ -25,6 +25,6 @@ public class DotThis {
         dti.outer().f();
     }
 } /* Output:
-DotThis.f()
-*///:~
-
+  DotThis.f()
+  */
+// :~

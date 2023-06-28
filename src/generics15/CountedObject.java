@@ -1,4 +1,4 @@
-package generics15;//: generics/CountedObject.java
+package generics15; // : generics/CountedObject.java
 
 public class CountedObject {
     private static long counter = 0;
@@ -11,4 +11,4 @@ public class CountedObject {
     public String toString() {
         return "CountedObject " + id;
     }
-} ///:~
+} /// :~

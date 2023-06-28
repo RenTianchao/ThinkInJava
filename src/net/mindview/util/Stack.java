@@ -1,4 +1,4 @@
-//: net/mindview/util/Stack.java
+// : net/mindview/util/Stack.java
 // Making a stack from a LinkedList.
 package net.mindview.util;
 
@@ -26,4 +26,4 @@ public class Stack<T> {
     public String toString() {
         return storage.toString();
     }
-} ///:~
+} /// :~

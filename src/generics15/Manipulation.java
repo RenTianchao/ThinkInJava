@@ -1,5 +1,5 @@
 package generics15;
-//: generics/Manipulation.java
+// : generics/Manipulation.java
 // {CompileTimeError} (Won't compile)
 
 class Manipulator<T> {
@@ -10,16 +10,15 @@ class Manipulator<T> {
     }
 
     // Error: cannot find symbol: method f():
-//    public void manipulate() {
-//        obj.f();
-//    }
+    //    public void manipulate() {
+    //        obj.f();
+    //    }
 }
 
 public class Manipulation {
     public static void main(String[] args) {
         HasF hf = new HasF();
-        Manipulator<HasF> manipulator =
-                new Manipulator<HasF>(hf);
-//        manipulator.manipulate();
+        Manipulator<HasF> manipulator = new Manipulator<HasF>(hf);
+        //        manipulator.manipulate();
     }
-} ///:~
+} /// :~

@@ -1,5 +1,5 @@
 package generics15;
-//: generics/UnboundedWildcards1.java
+// : generics/UnboundedWildcards1.java
 
 import java.util.*;
 
@@ -43,4 +43,4 @@ public class UnboundedWildcards1 {
         assign2(wildList);
         assign3(wildList);
     }
-} ///:~
+} /// :~

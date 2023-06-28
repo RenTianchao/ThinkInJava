@@ -1,6 +1,6 @@
 package innerclasses10;
 
-//: innerclasses10/Parcel7.java
+// : innerclasses10/Parcel7.java
 // Returning an instance of an anonymous inner class.
 
 public class Parcel7 {
@@ -18,5 +18,4 @@ public class Parcel7 {
         Parcel7 p = new Parcel7();
         Contents c = p.contents();
     }
-} ///:~
-
+} /// :~

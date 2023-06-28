@@ -1,4 +1,4 @@
-package polymorphism8;//: polymorphism/PolyConstructors.java
+package polymorphism8; // : polymorphism/PolyConstructors.java
 // Constructors and polymorphism
 // don't produce what you might expect.
 
@@ -35,8 +35,9 @@ public class PolyConstructors {
         new RoundGlyph(5);
     }
 } /* Output:
-Glyph() before draw()
-RoundGlyph.draw(), radius = 0
-Glyph() after draw()
-RoundGlyph.RoundGlyph(), radius = 5
-*///:~
+  Glyph() before draw()
+  RoundGlyph.draw(), radius = 0
+  Glyph() after draw()
+  RoundGlyph.RoundGlyph(), radius = 5
+  */
+// :~

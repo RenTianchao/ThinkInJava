@@ -1,4 +1,4 @@
-package generics15;//: generics/Holder2.java
+package generics15; // : generics/Holder2.java
 
 public class Holder2 {
     private Object a;
@@ -23,4 +23,4 @@ public class Holder2 {
         h2.set(1); // Autoboxes to Integer
         Integer x = (Integer) h2.get();
     }
-} ///:~
+} /// :~

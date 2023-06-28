@@ -1,5 +1,4 @@
-//: generics/coffee/Latte.java
+// : generics/coffee/Latte.java
 package generics15.coffee;
 
-public class Latte extends Coffee {
-} ///:~
+public class Latte extends Coffee {} // /:~
